@@ -4,7 +4,7 @@ title: # Project: This is the Descriptive Title of the Example
 linkTitle: Example
 tags: ["project", "reu"]
 description: "Here comes the abstract"
-author: Jacques Fleischer
+author: Jacques, Fleischer
 github_url: https://github.com/cybertraining-dsc/su21-reu-361/edit/main/project/index.md
 resources:
 - src: "**.{png,jpg}"
