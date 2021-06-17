@@ -5,6 +5,7 @@ linkTitle: Example
 tags: ["project", "reu"]
 description: "Here comes the abstract"
 author: Firstanme, Lastname
+github_url: https://github.com/cybertraining-dsc/su21-reu-361/edit/main/project/index.md
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
