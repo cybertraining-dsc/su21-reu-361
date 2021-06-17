@@ -11,15 +11,12 @@ resources:
 ---
 
 
-Fix the links: and than remove this line
-
-[![Check Report](https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/hid-example/actions)
-[![Status](https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg)](https://github.com/cybertraining-dsc/hid-example/actions)
+[![Check Report](https://github.com/cybertraining-dsc/hid-example/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/su21-reu-361/actions)
+[![Status](https://github.com/cybertraining-dsc/hid-example/workflows/Status/badge.svg)](https://github.com/cybertraining-dsc/su21-reu-361/actions)
 Status: draft, Type: Project
 
-Fix the links: and than remove this line
 
-Gregor von Laszewski, [hid-example](https://github.com/cybertraining-dsc/hid-example/), [Edit](https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md)
+Firstname Lastname, [su21-reu-361](https://github.com/cybertraining-dsc/su21-reu-361), [Edit](https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/index.md)
 
 {{% pageinfo %}}
 
