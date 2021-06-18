@@ -16,7 +16,7 @@ resources:
 Status: draft, Type: Project
 
 
-Firstname Lastname, [su21-reu-361](https://github.com/cybertraining-dsc/su21-reu-361), [Edit](https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/index.md)
+Jacques Fleischer, [su21-reu-361](https://github.com/cybertraining-dsc/su21-reu-361), [Edit](https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/index.md)
 
 {{% pageinfo %}}
 
