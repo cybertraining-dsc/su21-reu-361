@@ -1,0 +1,5 @@
+numpy
+matplotlib
+pandas
+cloudmesh-common
+cloudmesh-cmd5
