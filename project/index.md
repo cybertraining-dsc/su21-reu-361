@@ -1,7 +1,7 @@
 ---
 date: 2021-06-16
 title: Learning How to Use EOS Blockchain
-linkTitle: Example
+linkTitle: EOS Blockchain
 tags: ["project", "reu"]
 description: "Time for crypto"
 author: Jacques, Fleischer
