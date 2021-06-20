@@ -1,6 +1,6 @@
 ---
 date: 2021-06-16
-title: Using EOS Blockchain
+title: "Project: Using EOS Blockchain"
 linkTitle: EOS Blockchain
 tags: ["project", "reu"]
 description: "Time for crypto"
