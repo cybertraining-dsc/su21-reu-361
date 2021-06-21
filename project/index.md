@@ -1,7 +1,7 @@
 ---
 date: 2021-06-16
-title: "Project: Using EOS Blockchain"
-linkTitle: EOS Blockchain
+title: "Project: Analyzing Price Changes on the Electro-Optical System Blockchain"
+linkTitle: Electro-Optical System Blockchain
 tags: ["project", "reu"]
 description: "Time for crypto"
 author: Jacques, Fleischer
