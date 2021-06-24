@@ -40,7 +40,7 @@ Contents
 - [ ] Add blockchain explanation to introduction
 - [ ] What does blockchain have to do with AI?
 - [ ] What codes exist that demonstrate the use of blockchain with AI using Python?
-- [ ] What is my code that I will be developing?
+- [ ] What is the code in this project that will be developed?
 - [ ] What is the performance of this code?
 - [ ] What is my conclusion?
 - [ ] Never, ever use the words 'I' or 'my' in a report
