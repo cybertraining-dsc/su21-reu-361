@@ -1,7 +1,7 @@
 ---
 date: 2021-06-16
-title: Learning How to Use EOS Blockchain
-linkTitle: Example
+title: "Project: Analyzing Price Changes on the Electro-Optical System Blockchain"
+linkTitle: Electro-Optical System Blockchain
 tags: ["project", "reu"]
 description: "Time for crypto"
 author: Jacques, Fleischer
@@ -19,6 +19,8 @@ Status: draft, Type: Project
 Jacques Fleischer, [su21-reu-361](https://github.com/cybertraining-dsc/su21-reu-361), [Edit](https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/index.md)
 
 {{% pageinfo %}}
+
+- [x] :o2: No abbrevations in title e.g. EOS
 
 ## Abstract
 
