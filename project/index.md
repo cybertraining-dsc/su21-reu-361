@@ -32,6 +32,21 @@ Contents
 
 **Keywords:** tensorflow, example. 
 
+## To-do
+
+- [ ] My first research on blockchain
+- [ ] Add blockchain explanation to introduction
+- [ ] What does blockchain have to do with AI?
+- [ ] What codes exist that demonstrate the use of blockchain with AI using Python?
+- [ ] What is my code that I will be developing?
+- [ ] What is the performance of this code?
+- [ ] What is my conclusion?
+- [ ] Never, ever use the words 'I' or 'my' in a report
+
+## Tutorials
+
+- [ ] Install software Visual Studio Code (create video tutorial or written instructions)
+
 ## 1. Introduction
 
 Do not include this tip in your document:
