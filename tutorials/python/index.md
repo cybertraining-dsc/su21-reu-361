@@ -1,5 +1,5 @@
 ---
-date: 2021-06-16
+date: 2021-06-24
 title: Tutorial on Installing Python
 linkTitle: install Python
 tags: ["project", "reu"]
@@ -34,7 +34,7 @@ Click the image below to be redirected to a 2 minute YouTube walkthrough.
   <a href="https://www.youtube.com/watch?v=T6UYyu5XVMc"><img src="https://img.youtube.com/vi/T6UYyu5XVMc/0.jpg" alt="IMAGE ALT TEXT"></a>
 </div>
 
-
+{{% youtube T6UYyu5XVMc %}}
 
 1. First, open up any web browser. This tutorial utilizes Google Chrome, but any other browser should work as long as it is not a 1990s version of Netscape. (Do not worry— you probably don't have this.) The browser of choice can be Microsoft Edge, Firefox, Opera— as long as it can perform a search on a search engine, access a webpage, and download a file.
 
