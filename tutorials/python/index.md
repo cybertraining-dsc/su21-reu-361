@@ -40,7 +40,7 @@ Click the image below to be redirected to a 2 minute YouTube walkthrough.
 \
 &nbsp;
 
-2. Click the search box in the bottom left of your screen, where it says "Type here to search". Then, type "google chrome" (or whatever is the name of the browser you use) and click it once it appears.
+2. Open your browser by clicking the search box in the bottom left of your screen, where it says "Type here to search". Then, type "google chrome" (or whatever is the name of the browser you use) and click it once it appears.
    1. The "Type here to search" box could be missing if you have customized your taskbar (the taskbar is the long box typically located on the bottom of your screen which has icons). In this case, just click the Windows logo in the bottom left and type your browser name.
    2. This is just one way to open your browser. You can even click a shortcut to your web browser on your taskbar, on your Desktop, or your Start Menu. In computing, there is typically many ways to accomplish the same end objective.
  \
@@ -64,7 +64,7 @@ Click the image below to be redirected to a 2 minute YouTube walkthrough.
 &nbsp;
 
 7. Click "Install Now". The default options that entail this selection are appropriate for this experiment's intents and purposes; choosing "Customize installation" may create reproducibility issues down the road, so please select "Install Now" instead.
-   1. The UAC prompt will pop up. UAC stands for "User Account Control" and exists so that the computer will not have unauthorized changes performed on it. Click "Yes" because Python is safe. School-issued computers may ask for an administrator password, so refer to step 4's sidenote.
+   1. The UAC prompt will pop up. UAC stands for "User Account Control" and exists so that the computer will not have unauthorized changes performed on it. Click "Yes" because Python is safe. School-issued computers may ask for an administrator password, so refer to step 5's sidenote.
  \
 &nbsp;
 
