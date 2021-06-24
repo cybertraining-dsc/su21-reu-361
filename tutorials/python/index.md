@@ -41,6 +41,7 @@ Click the image below to be redirected to a 2 minute YouTube walkthrough.
 2. Click the search box in the bottom left of your screen, where it says "Type here to search". Then, type "google chrome" (or whatever is the name of the browser you use) and click it once it appears.
   - The "Type here to search" box could be missing if you have customized your taskbar (the taskbar is the long box typically located on the bottom of your screen which has icons). In this case, just click the Windows logo in the bottom left and type your browser name.
   - This is just one way to open your browser. You can even click a shortcut to your web browser on your taskbar, on your Desktop, or your Start Menu. In computing, there is typically many ways to accomplish the same end objective.
+  
 
 3. Once your browser has loaded, search for "python" on Google or any search engine. Click the result that reads "Downloads" from the website "python.org".
 
