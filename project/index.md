@@ -2,8 +2,8 @@
 date: 2021-06-16
 title: "Project: Analyzing Price Changes on the Electro-Optical System Blockchain"
 linkTitle: Electro-Optical System Blockchain
-tags: ["project", "reu"]
-description: "Time for crypto"
+tags: ["project", "reu", "blockchain", "investing", "cryptocurrency"]
+description: "Machine learning and AI which predicts price changes of cryptocurrency"
 author: Jacques, Fleischer
 github_url: https://github.com/cybertraining-dsc/su21-reu-361/edit/main/project/index.md
 resources:
