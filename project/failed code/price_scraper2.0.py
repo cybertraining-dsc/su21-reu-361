@@ -1,3 +1,9 @@
+#This code was taken from
+#https://medium.com/c%C3%B3digo-ecuador/how-to-scrape-cryptocurrency-data-prices-volume-percent-change-dbb77c11fd82
+#but it is broken. Yay!
+
+
+
 from datetime import datetime, timedelta
 import time, requests, pandas, lxml
 from lxml import html

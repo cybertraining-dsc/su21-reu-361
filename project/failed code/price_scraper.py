@@ -1,3 +1,10 @@
+#This code was taken from a medium article found here
+#https://bryanf.medium.com/web-scraping-crypto-prices-with-python-41072ea5b5bf
+#It does not work because coinmarketcap's website has changed
+
+
+
+
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
