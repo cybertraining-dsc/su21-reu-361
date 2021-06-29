@@ -20,7 +20,7 @@ Jacques Fleischer, [su21-reu-361](https://github.com/cybertraining-dsc/su21-reu-
 
 {{% pageinfo %}}
 
-- [x] No abbrevations in title e.g. EOS
+- [x] :o2: No abbrevations in title e.g. EOS
 
 ## Abstract
 
