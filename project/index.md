@@ -32,12 +32,12 @@ Contents
 
 {{% /pageinfo %}}
 
-**Keywords:** tensorflow, example. 
+**Keywords:** cryptocurrency, investing, business, blockchain. 
 
 ## To-do
 
-- [ ] My first research on blockchain
-- [ ] Add blockchain explanation to introduction
+- [x] My first research on blockchain
+- [x] Add blockchain explanation to introduction
 - [ ] What does blockchain have to do with AI?
 - [ ] What codes exist that demonstrate the use of blockchain with AI using Python?
 - [ ] What is the code in this project that will be developed?
@@ -51,14 +51,11 @@ Contents
 
 ## 1. Introduction
 
-Do not include this tip in your document:
+Blockchain is "an open, distributed ledger" which records transactions of cryptocurrency. It is decentralized, which means that these transactions are shared and distributed among all participants on the blockchain for maximum accountability. Furthermore, this new "blockchain" technology is becoming an increasingly popular alternative to mainstream transactions through traditional banks.[^1]
 
-> Tip: Please note that an up to date version of these instructions is available at
->
-> * <https://github.com/cybertraining-dsc/hid-example/blob/main/project/index.md>
+An attractive new invention such as blockchain is a particularly desirable investment opportunity. However, its severe volatility can scare away possible investors; in 2017, one Bitcoin was worth $1,000 USD; a year later, its value multiplied by 20; and just a few months later, it decreased back down to $5,000.[^2]
 
-
-Here comes a convincing introduction to the problem
+Artificial intelligence will be applied in this experiment to predict the future price of blockchain cryptocurrencies on the Electro-Optical System.
 
 ## 2. Report Format
 
@@ -149,10 +146,10 @@ Your report must include at least 6 references. Please use customary academic ci
 one point automatically change the references from superscript to square brackets it is best to introduce a space before 
 the first square bracket.
 
-[^1]: Use of energy explained - Energy use in homes, [Online resource] 
-      <https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php>
+[^1]: Marco Iansiti and Karim R. Lakhani, The Truth About Blockchain, [Online resource] 
+      <https://hbr.org/2017/01/the-truth-about-blockchain>
 
 
-[^2]: Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub] 
-      <https://github.com/cloudmesh/cloudmesh-common>
+[^2]: Jeremy Swinfen Green, Understanding cryptocurrency market fluctuations, [Online resource] 
+      <https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/>
 
