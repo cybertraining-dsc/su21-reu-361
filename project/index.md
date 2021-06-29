@@ -24,7 +24,7 @@ Jacques Fleischer, [su21-reu-361](https://github.com/cybertraining-dsc/su21-reu-
 
 ## Abstract
 
-Here comes a short abstract of the project that summarizes what it is about
+Blockchain-based cryptocurrency is a popular investment of today's age. However, the U.S. Securities and Exchange Commission warns that high-risk accompanies these investments[^1]. This project applies machine learning and Artificial Intelligence (AI) to historical records of these coins to predict future prices; this aims to minimize investment risk.
 
 Contents
 
@@ -51,15 +51,15 @@ Contents
 
 ## 1. Introduction
 
-Blockchain is "an open, distributed ledger" which records transactions of cryptocurrency. It is decentralized, which means that these transactions are shared and distributed among all participants on the blockchain for maximum accountability. Furthermore, this new "blockchain" technology is becoming an increasingly popular alternative to mainstream transactions through traditional banks[^1].
+Blockchain is "an open, distributed ledger" which records transactions of cryptocurrency. It is decentralized, which means that these transactions are shared and distributed among all participants on the blockchain for maximum accountability. Furthermore, this new "blockchain" technology is becoming an increasingly popular alternative to mainstream transactions through traditional banks[^2].
 
-An attractive new invention such as blockchain is a particularly desirable investment opportunity. However, its severe volatility can scare away possible investors; in 2017, one Bitcoin was worth $1,000 USD; a year later, its value multiplied by 20; and just a few months later, it decreased back down to $5,000[^2].
+An attractive new invention such as blockchain is a particularly desirable investment opportunity. However, its severe volatility can scare away possible investors; in 2017, one Bitcoin was worth $1,000 USD; a year later, its value multiplied by 20; and just a few months later, it decreased back down to $5,000[^3].
 
 Artificial intelligence will be applied in this experiment to predict the future price of blockchain cryptocurrencies on the Electro-Optical System.
 
 ## 2. Datasets
 
-- [ ] Find online price checker and rip/scalp prices
+This project utilizes a .csv file containing the historical prices of the EOS coin from the first day of its inception on 1 July 2017, to the last scraped day 12 December 2020[^4]. From this data, the project will attempt to predict the prices from the end date until the present day.
 
 ## 3. Using Images
 
@@ -85,10 +85,20 @@ Your report must include at least 6 references. Please use customary academic ci
 one point automatically change the references from superscript to square brackets it is best to introduce a space before 
 the first square bracket.
 
-[^1]: Marco Iansiti and Karim R. Lakhani, The Truth About Blockchain, [Online resource] 
+[^1]: Lori Schock, Thinking About Buying the Latest New Cryptocurrency or Token?, [Online resource] 
+      <https://www.investor.gov/additional-resources/spotlight/directors-take/thinking-about-buying-latest-new-cryptocurrency-or>
+
+
+[^2]: Marco Iansiti and Karim R. Lakhani, The Truth About Blockchain, [Online resource] 
       <https://hbr.org/2017/01/the-truth-about-blockchain>
-
-
-[^2]: Jeremy Swinfen Green, Understanding cryptocurrency market fluctuations, [Online resource] 
+      
+      
+[^3]: Jeremy Swinfen Green, Understanding cryptocurrency market fluctuations, [Online resource] 
       <https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/>
+      
+      
+[^4]: Mehmet Tarik Akcay, Historical Data for Top 20 Coins by Market Cap, [Online resource]
+      <https://www.kaggle.com/mtakcy/historical-data-for-top-20-coins-by-market-cap?select=eos.csv>
+      
+
 
