@@ -91,14 +91,14 @@ the first square bracket.
 
 [^2]: Marco Iansiti and Karim R. Lakhani, The Truth About Blockchain, [Online resource] 
       <https://hbr.org/2017/01/the-truth-about-blockchain>
-      
-      
+
+
 [^3]: Jeremy Swinfen Green, Understanding cryptocurrency market fluctuations, [Online resource] 
       <https://www.telegraph.co.uk/business/business-reporter/cryptocurrency-market-fluctuations/>
-      
-      
+
+
 [^4]: Mehmet Tarik Akcay, Historical Data for Top 20 Coins by Market Cap, [Online resource]
       <https://www.kaggle.com/mtakcy/historical-data-for-top-20-coins-by-market-cap?select=eos.csv>
-      
+
 
 
