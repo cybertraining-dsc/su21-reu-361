@@ -63,9 +63,9 @@ This project utilizes a .csv file containing the historical prices of the EOS co
 
 ## 3. Using Images
 
-![Figure 1](https://github.com/cybertraining-dsc/fa20-523-314/raw/main/project/images/chart.png)
+![Figure 1](https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/images/eos_price.png)
 
-**Figure 1:** Images can be included in the report, but if they are copied you must cite them [^1].
+**Figure 1:** Line graph of EOS price from 1 July 2017 til 12 December 2020. Generated using timeseries_generator.ipynb located in project/code.
 
 ## 4. Benchmark
 
