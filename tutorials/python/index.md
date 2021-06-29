@@ -1,8 +1,8 @@
 ---
 date: 2021-06-24
 title: Tutorial on Installing Python
-linkTitle: install Python
-tags: ["project", "reu"]
+linkTitle: Install Python
+tags: ["project", "reu", "tutorial"]
 description: "Time for Python"
 author: Jacques, Fleischer
 github_url: https://github.com/cybertraining-dsc/su21-reu-361/edit/main/tutorials/python/index.md
@@ -29,7 +29,7 @@ Contents
 
 # Steps
 
-Click the image below to be redirected to a 2 minute YouTube walkthrough.
+Click the following image to be redirected to a 2 minute YouTube walkthrough.
 <div align="left">
   <a href="https://www.youtube.com/watch?v=T6UYyu5XVMc"><img src="https://img.youtube.com/vi/T6UYyu5XVMc/0.jpg" alt="IMAGE ALT TEXT"></a>
 </div>
