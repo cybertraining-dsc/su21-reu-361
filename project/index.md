@@ -69,7 +69,7 @@ This project utilizes a .csv file containing the historical prices of the EOS co
 
 ## 4. Benchmark
 
-Your project must include a benchmark. The easiest is to use cloudmesh-common [^2]
+Your project must include a benchmark. The easiest is to use cloudmesh-common
  
 ## 5. Conclusion
 
