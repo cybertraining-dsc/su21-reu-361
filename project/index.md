@@ -20,8 +20,6 @@ Jacques Fleischer, [su21-reu-361](https://github.com/cybertraining-dsc/su21-reu-
 
 {{% pageinfo %}}
 
-- [x] No abbrevations in title e.g. EOS
-
 ## Abstract
 
 Blockchain-based cryptocurrency is a popular investment of today's age. However, the U.S. Securities and Exchange Commission warns that high-risk accompanies these investments[^1]. This project applies machine learning and Artificial Intelligence (AI) to historical records of these coins to predict future prices; this aims to minimize investment risk.
