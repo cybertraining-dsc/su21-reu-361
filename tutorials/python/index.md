@@ -29,7 +29,7 @@ Contents
 
 ## Windows
 
-Click the following image to be redirected to a 2 minute YouTube walkthrough.
+Click the following image to be redirected to a 2-minute YouTube walkthrough.
 <div align="left">
   <a href="https://www.youtube.com/watch?v=T6UYyu5XVMc"><img src="https://img.youtube.com/vi/T6UYyu5XVMc/0.jpg" alt="IMAGE ALT TEXT"></a>
 </div>
@@ -86,7 +86,7 @@ Click the following image to be redirected to a 2 minute YouTube walkthrough.
 
 ## Mac
 
-Click the following image to be redirected to a 5 minute YouTube walkthrough. (Yes, Mac's video is a little longer, but do not fret!
+Click the following image to be redirected to a 5-minute YouTube walkthrough. (Yes, Mac's video is a little longer, but do not fret!
 You can skip to the 1:00 minute mark if you are in a hurry.)
 
 {{% youtube TttmzM-EDmk %}}
@@ -137,8 +137,8 @@ You can skip to the 1:00 minute mark if you are in a hurry.)
 
 ## Linux
 
-Click the following image to be redirected to an 8 minute YouTube walkthrough. (Linux's tutorial is the longest! But it is worth it.)
-This tutorial uses Ubuntu, but it should work on other Linux distros as well.
+Click the following image to be redirected to an 8-minute YouTube walkthrough. (Linux's tutorial is the longest, but it is worth it.)
+This tutorial uses Ubuntu, but it should work on other Linux distros, as well.
 
 {{% youtube TttmzM-EDmk %}}
 
@@ -155,7 +155,7 @@ This tutorial uses Ubuntu, but it should work on other Linux distros as well.
  \
 &nbsp;
    
-4. Open a terminal by pressing the Windows key, or by clicking the grid on the bottom left of your screen. Type `terminal` after clicking on `Type to search`. Click on `Terminal`.
+4. Open a terminal by pressing the Windows key, or by clicking the grid on the bottom left of your screen. Type `terminal`. Click on the `Terminal` result that appears.
  \
 &nbsp;
    
