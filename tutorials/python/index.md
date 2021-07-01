@@ -27,7 +27,7 @@ Contents
 **Keywords:** python
 
 
-# Steps
+## Windows
 
 Click the following image to be redirected to a 2 minute YouTube walkthrough.
 <div align="left">
@@ -83,9 +83,51 @@ Click the following image to be redirected to a 2 minute YouTube walkthrough.
 
 11. Type `python --version` and the output should read "Python x.x.x"; as long as it is the latest version from the website, congratulations. Python is installed on the computer.
 
-# Troubleshooting
 
-## Incorrect Python Version on Command Prompt
+## Mac
+
+Click the following image to be redirected to a 5 minute YouTube walkthrough. (Yes, Mac's video is a little longer, but do not fret!
+You can skip to the 1:00 minute mark if you are in a hurry.)
+
+{{% youtube TttmzM-EDmk %}}
+
+
+1. Open a web browser that is able to search and download a file. This tutorial uses Google Chrome for Mac.
+
+
+2. Type in `python` in the address bar and press enter. It should perform a search on your default search engine.
+
+
+3. Look for the result that is from `python.org`. Click on the subresult that says `Downloads`.
+
+
+4. Underneath `Download the latest version for Mac OS X`, there should be a yellow button that reads `Download Python x.x.x`. Click on it, and the download should commence.
+
+
+5. Once the download finishes, open it by clicking on it. The installer will open. Click `Continue`, click `Continue` again, click `Continue` again, oh my goodness!
+
+
+6. Click `Agree`. 
+   1. If you want to check how much free storage you have on your computer, click the Apple icon in the top left of your computer. Click
+    `About This Mac` and then click on `Storage`. As of July 2021, Python takes ~120 MB of space. Remember that 1 GB = 1000 MB.
+      
+
+7. Click `Install`. Enter your password and press Enter. Watch the blue progress bar crawl like a turtle... or blast off at the speed of sound! This depends on your computer speed.
+
+
+8. A Finder window will open. You can close it as it is unnecessary. Click `Close` in the bottom-right of the installer. Click `Move to Trash` because you do not need the installer anymore.
+
+
+9. Time to confirm that Python installed correctly. Click the magnifying glass in the top-right of your screen and then type `terminal` into Spotlight Search. Double-click `Terminal`.
+   1. The terminal will be used frequently in this experiment. Consider keeping it in the dock for convenience. Click and hold the Terminal in the dock, go to `Options`, and click `Keep in Dock`.
+    
+
+10. Type `python3 --version` into the terminal and press Enter. It should output the latest version of Python. Congratulations!
+
+
+## Troubleshooting
+
+### Incorrect Python Version on Command Prompt
 
 If the computer has installed an older version of Python, running `python --version` on Command Prompt may output an older version. Typing `python3 --version` may output the correct, latest version.
 
