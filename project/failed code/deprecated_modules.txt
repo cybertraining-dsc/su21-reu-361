@@ -1,0 +1,5 @@
+This piece of code was the alternative for the youtube module on the .io page
+
+<div align="left">
+  <a href="https://www.youtube.com/watch?v=T6UYyu5XVMc"><img src="https://img.youtube.com/vi/T6UYyu5XVMc/0.jpg" alt="IMAGE ALT TEXT"></a>
+</div>

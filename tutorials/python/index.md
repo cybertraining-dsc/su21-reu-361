@@ -30,9 +30,6 @@ Contents
 ## Windows
 
 Click the following image to be redirected to a 2-minute YouTube walkthrough.
-<div align="left">
-  <a href="https://www.youtube.com/watch?v=T6UYyu5XVMc"><img src="https://img.youtube.com/vi/T6UYyu5XVMc/0.jpg" alt="IMAGE ALT TEXT"></a>
-</div>
 
 {{% youtube T6UYyu5XVMc %}}
 
