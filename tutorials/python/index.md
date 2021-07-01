@@ -93,47 +93,47 @@ You can skip to the 1:00 minute mark if you are in a hurry.)
 
 
 1. Open a web browser that is able to search and download a file. This tutorial uses Google Chrome for Mac.
-
-
+ \
+&nbsp;
 
 2. Type in `python` in the address bar and press enter. It should perform a search on your default search engine.
-
-
+ \
+&nbsp;
 
 3. Look for the result that is from `python.org`. Click on the subresult that says `Downloads`.
-
-
+ \
+&nbsp;
 
 4. Underneath `Download the latest version for Mac OS X`, there should be a yellow button that reads `Download Python x.x.x`. Click on it, and the download should commence.
-
-
+ \
+&nbsp;
 
 5. Once the download finishes, open it by clicking on it. The installer will open. Click `Continue`, click `Continue` again, click `Continue` again, oh my goodness!
-
-
+ \
+&nbsp;
 
 6. Click `Agree`. 
    1. If you want to check how much free storage you have on your computer, click the Apple icon in the top left of your computer. Click
     `About This Mac` and then click on `Storage`. As of July 2021, Python takes ~120 MB of space. Remember that 1 GB = 1000 MB.
-      
-
+ \
+&nbsp;
 
 7. Click `Install`. Enter your password and press Enter. Watch the blue progress bar crawl like a turtle... or blast off at the speed of sound! This depends on your computer speed.
-
-
+ \
+&nbsp;
 
 8. A Finder window will open. You can close it as it is unnecessary. Click `Close` in the bottom-right of the installer. Click `Move to Trash` because you do not need the installer anymore.
-
-
+ \
+&nbsp;
 
 9. Time to confirm that Python installed correctly. Click the magnifying glass in the top-right of your screen and then type `terminal` into Spotlight Search. Double-click `Terminal`.
    1. The terminal will be used frequently in this experiment. Consider keeping it in the dock for convenience. Click and hold the Terminal in the dock, go to `Options`, and click `Keep in Dock`.
-    
-
+ \
+&nbsp;    
 
 10. Type `python3 --version` into the terminal and press Enter. It should output the latest version of Python. Congratulations!
-
-
+ \
+&nbsp;
 
 ## Linux
 
@@ -144,35 +144,61 @@ This tutorial uses Ubuntu, but it should work on other Linux distros as well.
 
 
 1. Open a web browser. It can be any browser as long as it can perform a search and navigate to a webpage.
-
+ \
+&nbsp;
+   
 2. Search for `python` by typing it into the address bar and pressing enter. Click on `Downloads` underneath the result from `https://www.python.org`.
-
+ \
+&nbsp;
+   
 3. Look at the latest version. It is on the yellow button: `Download Python x.x.x`. You do not need to click this button. Remember this version number.
-
+ \
+&nbsp;
+   
 4. Open a terminal by pressing the Windows key, or by clicking the grid on the bottom left of your screen. Type `terminal` after clicking on `Type to search`. Click on `Terminal`.
-
+ \
+&nbsp;
+   
 5. Type `sudo apt-get update` and press Enter. Wait for it to finish. It may already be up-to-date. 
-
+ \
+&nbsp;
+   
 6. Type `sudo apt-get install libssl-dev openssl make gcc` and press Enter. This will install the libraries required to connect to an FTP to download Python. Type your password for your Linux user account, if prompted, and press Enter.
-    
+ \
+&nbsp;
+   
 7. You are then asked if you are okay with a certain amount of disk space being taken up. Type `y`, which stands for Yes, and then press Enter.
    1. If you want to check how much disk space you have, press the Files icon on the left (on the taskbar) and click `Other Locations`. You may have to scroll down on the sidebar in order to see it. It should say how much GB is available. Remember, 1 GB = 1000 MB and 1 MB = 1000 KB.
-    
+ \
+&nbsp;
+      
 8. After this finishes, type `cd /opt` and press Enter. Then, remember which version you read on the Python webpage (the latest version). Type `sudo wget https://www.python.org/ftp/python/x.x.x/Python-x.x.x.tgz` after replacing the `x.x.x` with the latest Python version number. As of July 2021, it is `3.9.6`. Press Enter.
-
+ \
+&nbsp;
+   
 9. Wait for the download to complete. Then, type `sudo tar xzvf Python-x.x.x.tgz` after you replace `x.x.x` with the latest Python version number. Press Enter.
-
+ \
+&nbsp;
+   
 10. Type `cd Python-x.x.x` after replacing `x.x.x` with the latest version number. Type `./configure` and press Enter.
-
+ \
+&nbsp;
+    
 11. Once it finishes, type `make` and press Enter. Once *that* finishes, type `sudo make install` and press Enter.
-
+ \
+&nbsp;
+    
 12. Once the installation finishes, type `sudo ln -fs /opt/Python-x.x.x/Python /usr/bin/pythonx.x`. Notice that `x.x.x` should be replaced with the full version number and `x.x` should have the first two numbers in the version number. Press Enter.
-
+ \
+&nbsp;
+    
 13. Confirm Python's successful installation by typing `pythonx.x --version`; be sure to replace x.x with the first two numbers of the version number. It should output the latest version number. Congratulations!
-
+ \
+&nbsp;
+    
 Credit to bobbyiliev for making the required commands publicly available. The commands are available here, as well: https://www.digitalocean.com/community/questions/how-to-install-a-specific-python-version-on-ubuntu
-
-
+ \
+&nbsp;
 
 ## Troubleshooting
 
