@@ -135,7 +135,7 @@ You can skip to the 1:00 minute mark if you are in a hurry.)
 
 ## Linux
 
-Click the following image to be redirected to an 8-minute YouTube walkthrough. (Linux's tutorial is the longest, but it is worth it.)
+Click the following image to be redirected to a 9-minute YouTube walkthrough. (Linux's tutorial is the longest, but it is worth it.)
 This tutorial uses Ubuntu, but it should work on other Linux distros, as well.
 
 {{% youtube TttmzM-EDmk %}}
