@@ -82,7 +82,8 @@ Click the following image to be redirected to a 2-minute YouTube walkthrough.
 &nbsp;
 
 11. Type `python --version` and the output should read "Python x.x.x"; as long as it is the latest version from the website, congratulations. Python is installed on the computer.
-
+ \
+&nbsp;
 
 ## Mac
 
