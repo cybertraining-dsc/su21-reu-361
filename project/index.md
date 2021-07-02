@@ -1,7 +1,7 @@
 ---
 date: 2021-06-16
 title: "Analyzing Price Changes on the Electro-Optical System Blockchain"
-linkTitle: Electro-Optical System Blockchain
+linkTitle: EOS Blockchain
 tags: ["project", "reu", "blockchain", "investing", "cryptocurrency"]
 description: "Machine learning and AI which predicts price changes of cryptocurrency"
 author: Jacques, Fleischer
