@@ -22,7 +22,7 @@ Jacques Fleischer, [su21-reu-361](https://github.com/cybertraining-dsc/su21-reu-
 
 ## Abstract
 
-Blockchain-based cryptocurrency is a popular investment of today's age. However, the U.S. Securities and Exchange Commission warns that high-risk accompanies these investments[^1]. This project applies machine learning and Artificial Intelligence (AI) to historical records of these coins to predict future prices; this aims to minimize investment risk.
+This project applies machine learning and Artificial Intelligence (AI) to historical records of high-risk cryptocurrency coins to predict future prices; this aims to minimize investment risk.
 
 Contents
 
@@ -49,7 +49,7 @@ Contents
 
 ## 1. Introduction
 
-Blockchain is "an open, distributed ledger" which records transactions of cryptocurrency. It is decentralized, which means that these transactions are shared and distributed among all participants on the blockchain for maximum accountability. Furthermore, this new "blockchain" technology is becoming an increasingly popular alternative to mainstream transactions through traditional banks[^2].
+Blockchain-based cryptocurrency is a popular investment of today's age. However, the U.S. Securities and Exchange Commission warns that high-risk accompanies these investments[^1]. Blockchain is "an open, distributed ledger" which records transactions of cryptocurrency. It is decentralized, which means that these transactions are shared and distributed among all participants on the blockchain for maximum accountability. Furthermore, this new "blockchain" technology is becoming an increasingly popular alternative to mainstream transactions through traditional banks[^2].
 
 An attractive new invention such as blockchain is a particularly desirable investment opportunity. However, its severe volatility can scare away possible investors; in 2017, one Bitcoin was worth $1,000 USD; a year later, its value multiplied by 20; and just a few months later, it decreased back down to $5,000[^3].
 
