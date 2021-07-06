@@ -49,11 +49,9 @@ Contents
 
 ## 1. Introduction
 
-Blockchain-based cryptocurrency is a popular investment of today's age. However, the U.S. Securities and Exchange Commission warns that high-risk accompanies these investments[^1]. Blockchain is "an open, distributed ledger" which records transactions of cryptocurrency. It is decentralized, which means that these transactions are shared and distributed among all participants on the blockchain for maximum accountability. Furthermore, this new "blockchain" technology is becoming an increasingly popular alternative to mainstream transactions through traditional banks[^2].
+Blockchain is "an open, distributed ledger" which records transactions of cryptocurrency. It is decentralized, which means that these transactions are shared and distributed among all participants on the blockchain for maximum accountability. Furthermore, this new "blockchain" technology is becoming an increasingly popular alternative to mainstream transactions through traditional banks[^2]. These transactions utilize blockchain-based "cryptocurrency," which is a popular investment of today's age, particularly in Bitcoin. However, the U.S. Securities and Exchange Commission warns that high-risk accompanies these investments[^1]. 
 
-An attractive new invention such as blockchain is a particularly desirable investment opportunity. However, its severe volatility can scare away possible investors; in 2017, one Bitcoin was worth $1,000 USD; a year later, its value multiplied by 20; and just a few months later, it decreased back down to $5,000[^3].
-
-Artificial intelligence will be applied in this experiment to predict the future price of blockchain cryptocurrencies on the Electro-Optical System.
+An attractive new invention such as blockchain is a particularly desirable investment opportunity. However, its severe volatility can scare away possible investors[^3]. Therefore, artificial intelligence will be applied in this experiment to predict the future price of blockchain cryptocurrencies on the Electro-Optical System.
 
 ## 2. Datasets
 
