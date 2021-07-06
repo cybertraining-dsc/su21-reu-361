@@ -62,7 +62,7 @@ word and fully committing every character on your screen to memory. Only if you 
 a cent.
    
 10. Click the person icon in the top right of the page (if you cannot find this person icon, then click this link
-    and hopefully it still works: https://account.jetbrains.com/login).
+    and hopefully it still works: https://account.jetbrains.com/login ).
     
 11. Create a JetBrains account by entering your university email address. Click `Sign Up` after entering your email;
 then, you have to go on your email and confirm your account in the automated email sent to you. Click `Confirm your
