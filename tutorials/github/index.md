@@ -1,7 +1,7 @@
 ---
 date: 2021-06-29
-title: Tutorial on Getting Raw Images on Github
-linkTitle: Raw Images Github
+title: Tutorial on Getting Raw Images on GitHub
+linkTitle: Raw Images GitHub
 tags: ["project", "reu", "tutorial"]
 description: "We need raw images"
 author: Jacques, Fleischer
@@ -16,7 +16,7 @@ resources:
 
 ## Abstract
 
-This tutorial teaches how to get raw images on Github to post on your index.md repo (without any errors).
+This tutorial teaches how to get raw images on GitHub to post on your index.md repo (without any errors).
 
 Contents
 
@@ -29,7 +29,7 @@ Contents
 
 ## Steps
 
-1. Upload your image to Github in the images directory
+1. Upload your image to GitHub in the images directory
 
 2. Click on the image file and then right click on it and click `Open image in new tab`
 
