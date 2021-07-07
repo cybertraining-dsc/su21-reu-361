@@ -5,7 +5,7 @@ linkTitle: Raw Images Github
 tags: ["project", "reu", "tutorial"]
 description: "We need raw images"
 author: Jacques, Fleischer
-github_url: https://github.com/cybertraining-dsc/su21-reu-365/edit/main/tutorials/github/index.md
+github_url: https://github.com/cybertraining-dsc/su21-reu-361/edit/main/tutorials/github/index.md
 resources:
 - src: "**.{png,jpg}"
   title: "Image #:counter"
