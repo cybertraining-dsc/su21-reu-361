@@ -61,7 +61,7 @@ This project utilizes a .csv file containing the historical prices of the EOS co
 
 ![Figure 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/eos_price.png)
 
-**Figure 1:** Line graph of EOS price from 1 July 2017 til 12 December 2020. The graph utilizes price data from a .csv in a Kaggle data set[^4]. Generated using timeseries_generator.ipynb located in project/code.
+**Figure 1:** Line graph of EOS price from 1 July 2017 to 12 December 2020. Generated using timeseries_generator.ipynb located in project/code, utilizing price data from a .csv in a Kaggle data set[^4].
 
 ## 4. Architecture
 
