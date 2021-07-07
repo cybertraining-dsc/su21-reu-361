@@ -6,7 +6,7 @@ owner:
   community: "reu"
   semester: "sp21"
 project:
-  title: Analyzing Price Changes on the Electro-Optical System Blockchain
-  url: https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/index.md
+  title: "Time Series Analysis of Blockchain-Based Cryptocurrency Price Changes"
+  url: "https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/index.md"
   author:
     - su21-reu-361
