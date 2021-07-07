@@ -138,7 +138,7 @@ You can skip to the 1:00 minute mark if you are in a hurry.)
 Click the following image to be redirected to a 9-minute YouTube walkthrough. (Linux's tutorial is the longest, but it is worth it.)
 This tutorial uses Ubuntu, but it should work on other Linux distros, as well.
 
-{{% youtube TttmzM-EDmk %}}
+{{% youtube cRp_ScANL1w %}}
 
 
 1. Open a web browser. It can be any browser as long as it can perform a search and navigate to a webpage.
