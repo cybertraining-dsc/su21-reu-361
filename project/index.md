@@ -53,7 +53,7 @@ Blockchain is *an open, distributed ledger* which records transactions of crypto
 
 Cryptocurrency coins' severe volatility can scare away possible investors[^3], so Artificial Intelligence (AI) can be used to predict the prices' behavior. AI and blockchain technology make an ideal partnership in data science; the insights generated from the former and the secure environment ensured by the latter create a goldmine for valuable information. For example, an up-and-coming innovation is the automatic trading of *digital investment assets* by AI, which will hugely outperform trading conducted by humans[^5]. This would not be possible without the construction of a program which can pinpoint the most ideal time to buy and sell. Similarly, AI will be applied in this experiment to predict the future price of cryptocurrencies on a number of different blockchains, including the Electro-Optical System and Ethereum. 
 
-Long short-term memory (LSTM) neural networks will be employed to analyze pre-existing price data and to generate the future price in varying timetables, such as ten days, several months, or a year from the last date.
+Long short-term memory is a neural network (form of AI) which ingests information and processes it using a *gradient-based learning algorithm*[^6]. This creates an algorithm that only improves with additional data— it "learns" as it ingests. LSTM neural networks will be employed to analyze pre-existing price data and to generate the future price in varying timetables, such as ten days, several months, or a year from the last date. This project will provide as a boon for insights into investments with potentially great returns. These findings can contribute to a positive cycle of attracting investors to a coin, which results in a price increase, which repeats.
 
 - [ ] to provide insights for possible investors
 - [ ] more investors = bigger price/increases. good for investors (a cycle). possible benefits of this project
@@ -108,6 +108,10 @@ Thank you to Gregor von Laszewski, Yohn Jairo, and Carlos Theran for their valua
       
 [^5]: Raj Shroff, When Blockchain Meets Artificial Intelligence. [Online resource]
       <https://medium.com/swlh/when-blockchain-meets-artificial-intelligence-e448968d0482>
+      
+      
+[^6]: Sepp Hochreiter and Jürgen Schmidhuber, Long Short-Term Memory, [Online resource]
+      <https://www.bioinf.jku.at/publications/older/2604.pdf>
 
 
 
