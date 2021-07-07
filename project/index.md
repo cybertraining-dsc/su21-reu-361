@@ -36,7 +36,7 @@ Contents
 
 - [x] My first research on blockchain
 - [x] Add blockchain explanation to introduction
-- [ ] What does blockchain have to do with AI?
+- [x] What does blockchain have to do with AI?
 - [ ] What codes exist that demonstrate the use of blockchain with AI using Python?
 - [ ] What is the code in this project that will be developed?
 - [ ] What is the performance of this code?
@@ -51,9 +51,16 @@ Contents
 
 Blockchain is *an open, distributed ledger* which records transactions of cryptocurrency. It is decentralized, which means that these transactions are shared and distributed among all participants on the blockchain for maximum accountability. Furthermore, this new *blockchain* technology is becoming an increasingly popular alternative to mainstream transactions through traditional banks[^2]. These transactions utilize blockchain-based *cryptocurrency*, which is a popular investment of today's age, particularly in Bitcoin. However, the U.S. Securities and Exchange Commission warns that high-risk accompanies these investments[^1]. 
 
-An attractive new invention such as blockchain is a particularly desirable investment opportunity. However, its severe volatility can scare away possible investors[^3]. AI and blockchain technology make an ideal partnership in data science; the insights generated from the former and the secure environment ensured by the latter create a goldmine for valuable information. For example, Microsoft has created a blockchain to improve machine learning. Another up-and-coming innovation is the automatic trading of *digital investment assets* by AI, which will hugely outperform trading conducted by humans[^5]. Therefore, artificial intelligence will be applied in this experiment to predict the future price of cryptocurrencies on a number of different blockchains, including the Electro-Optical System and Ethereum.
+Cryptocurrency coins' severe volatility can scare away possible investors[^3], so Artificial Intelligence (AI) can be used to predict the prices' behavior. AI and blockchain technology make an ideal partnership in data science; the insights generated from the former and the secure environment ensured by the latter create a goldmine for valuable information. For example, Microsoft has created a blockchain to improve machine learning. Another up-and-coming innovation is the automatic trading of *digital investment assets* by AI, which will hugely outperform trading conducted by humans[^5]. This would not be possible without the construction of a program which can pinpoint the most ideal time to buy and sell. Similarly, AI will be applied in this experiment to predict the future price of cryptocurrencies on a number of different blockchains, including the Electro-Optical System and Ethereum. 
 
-Long short-term memory (LSTM) neural networks will be employed to analyze pre-existing price data and to generate the future price in varying timetables, such as ten days, several months, or a year from the last date. 
+Long short-term memory (LSTM) neural networks will be employed to analyze pre-existing price data and to generate the future price in varying timetables, such as ten days, several months, or a year from the last date.
+
+- [ ] to provide insights for possible investors
+- [ ] more investors = bigger price/increases. good for investors (a cycle). possible benefits of this project
+- [ ] explain what LSTM is
+- [ ] can increase the business and popularity/prosperity of these coins. 
+- [ ] it is important bc crypto is up-and-coming, will be mainstream
+- [ ] end with why the project is good/helpful
 
 ## 2. Datasets
 
