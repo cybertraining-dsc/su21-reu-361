@@ -1,9 +1,9 @@
 ---
 date: 2021-06-16
-title: "Analyzing Price Changes on the Electro-Optical System Blockchain"
-linkTitle: EOS Blockchain
+title: "Time Series Analysis of Blockchain-Based Cryptocurrency Price Changes"
+linkTitle: Time Series Cryptocurrency
 tags: ["project", "reu", "blockchain", "investing", "cryptocurrency"]
-description: "Machine learning and AI which predicts price changes of cryptocurrency"
+description: "This project applies neural networks and Artificial Intelligence (AI) to historical records of high-risk cryptocurrency coins to predict future prices; this aims to minimize investment risk."
 author: Jacques, Fleischer
 github_url: https://github.com/cybertraining-dsc/su21-reu-361/edit/main/project/index.md
 resources:
@@ -22,7 +22,7 @@ Jacques Fleischer, [su21-reu-361](https://github.com/cybertraining-dsc/su21-reu-
 
 ## Abstract
 
-This project applies machine learning and Artificial Intelligence (AI) to historical records of high-risk cryptocurrency coins to predict future prices; this aims to minimize investment risk.
+This project applies neural networks and Artificial Intelligence (AI) to historical records of high-risk cryptocurrency coins to predict future prices; this aims to minimize investment risk.
 
 Contents
 
@@ -61,25 +61,25 @@ This project utilizes a .csv file containing the historical prices of the EOS co
 
 ![Figure 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/eos_price.png)
 
-**Figure 1:** Line graph of EOS price from 1 July 2017 til 12 December 2020. Generated using timeseries_generator.ipynb located in project/code.
+**Figure 1:** Line graph of EOS price from 1 July 2017 til 12 December 2020. The graph utilizes price data from a .csv in a Kaggle data set[^4]. Generated using timeseries_generator.ipynb located in project/code.
 
-## 4. Benchmark
+## 4. Architecture
+
+- [ ] Discuss the transition from beautifulsoup to taking from a kaggle set. Utilizing LSTM neural network to predict future price.
+
+## 5. Benchmark
 
 Your project must include a benchmark. The easiest is to use cloudmesh-common
  
-## 5. Conclusion
+## 6. Conclusion
 
 A convincing but not fake conclusion should summarize what the conclusion of the project is.
 
-## 6. Acknowledgments
+## 7. Acknowledgments
 
-Please add acknowledgments to all that contributed or helped on this project.
+Thank you to Gregor von Laszewski, Yohn Jairo, and Carlos Theran for their valuable guidance. Furthermore, thank you to Florida A&M University for graciously funding this scientific excursion.
 
-## 7. References
-
-Your report must include at least 6 references. Please use customary academic citation and not just URLs. As we will at 
-one point automatically change the references from superscript to square brackets it is best to introduce a space before 
-the first square bracket.
+## 8. References
 
 [^1]: Lori Schock, Thinking About Buying the Latest New Cryptocurrency or Token?, [Online resource] 
       <https://www.investor.gov/additional-resources/spotlight/directors-take/thinking-about-buying-latest-new-cryptocurrency-or>
