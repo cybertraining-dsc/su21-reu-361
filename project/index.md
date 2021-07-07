@@ -51,7 +51,9 @@ Contents
 
 Blockchain is *an open, distributed ledger* which records transactions of cryptocurrency. It is decentralized, which means that these transactions are shared and distributed among all participants on the blockchain for maximum accountability. Furthermore, this new *blockchain* technology is becoming an increasingly popular alternative to mainstream transactions through traditional banks[^2]. These transactions utilize blockchain-based *cryptocurrency*, which is a popular investment of today's age, particularly in Bitcoin. However, the U.S. Securities and Exchange Commission warns that high-risk accompanies these investments[^1]. 
 
-An attractive new invention such as blockchain is a particularly desirable investment opportunity. However, its severe volatility can scare away possible investors[^3]. Therefore, artificial intelligence will be applied in this experiment to predict the future price of blockchain cryptocurrencies on the Electro-Optical System.
+An attractive new invention such as blockchain is a particularly desirable investment opportunity. However, its severe volatility can scare away possible investors[^3]. AI and blockchain technology make an ideal partnership in data science; the insights generated from the former and the secure environment ensured by the latter create a goldmine for valuable information. For example, Microsoft has created a blockchain to improve machine learning. Another up-and-coming innovation is the automatic trading of *digital investment assets* by AI, which will hugely outperform trading conducted by humans.[^5] Therefore, artificial intelligence will be applied in this experiment to predict the future price of cryptocurrencies on a number of different blockchains, including the Electro-Optical System and Ethereum.
+
+Long short-term memory (LSTM) neural networks will be employed to analyze pre-existing price data and to generate the future price in varying timetables, such as ten days, several months, or a year from the last date. 
 
 ## 2. Datasets
 
@@ -95,6 +97,10 @@ Thank you to Gregor von Laszewski, Yohn Jairo, and Carlos Theran for their valua
 
 [^4]: Mehmet Tarik Akcay, Historical Data for Top 20 Coins by Market Cap, [Online resource]
       <https://www.kaggle.com/mtakcy/historical-data-for-top-20-coins-by-market-cap?select=eos.csv>
+      
+      
+[^5]: Raj Shroff, When Blockchain Meets Artificial Intelligence. [Online resource]
+      <https://medium.com/swlh/when-blockchain-meets-artificial-intelligence-e448968d0482>
 
 
 
