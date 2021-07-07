@@ -104,12 +104,12 @@ Thank you to Gregor von Laszewski, Yohn Jairo, and Carlos Theran for their valua
 
 [^4]: Mehmet Tarik Akcay, Historical Data for Top 20 Coins by Market Cap, [Online resource]
       <https://www.kaggle.com/mtakcy/historical-data-for-top-20-coins-by-market-cap?select=eos.csv>
-      
-      
+
+
 [^5]: Raj Shroff, When Blockchain Meets Artificial Intelligence. [Online resource]
       <https://medium.com/swlh/when-blockchain-meets-artificial-intelligence-e448968d0482>
-      
-      
+
+
 [^6]: Sepp Hochreiter and Jürgen Schmidhuber, Long Short-Term Memory, [Online resource]
       <https://www.bioinf.jku.at/publications/older/2604.pdf>
 
