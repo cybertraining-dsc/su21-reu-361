@@ -1,9 +1,6 @@
-keras
-tensorflow
-pandas
-scikit-learn
 numpy
 matplotlib
+pandas
 cloudmesh-common
 cloudmesh-cmd5
 jupyter
