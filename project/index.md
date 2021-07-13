@@ -49,16 +49,16 @@ Contents
 
 ## 1. Introduction
 
-Blockchain is *an open, distributed ledger* which records transactions of cryptocurrency. Systems in blockchain are decentralized, which means that these transactions are shared and distributed among all participants on the blockchain for maximum accountability. Furthermore, this new *blockchain* technology is becoming an increasingly popular alternative to mainstream transactions through traditional banks[^2]. These transactions utilize blockchain-based *cryptocurrency*, which is a popular investment of today's age, particularly in Bitcoin. However, the U.S. Securities and Exchange Commission warns that high-risk accompanies these investments[^1]. 
+Blockchain is *an open, distributed ledger* which records transactions of cryptocurrency. Systems in blockchain are decentralized, which means that these transactions are shared and distributed among all participants on the blockchain for maximum accountability. Furthermore, this new blockchain technology is becoming an increasingly popular alternative to mainstream transactions through traditional banks[^2]. These transactions utilize blockchain-based *cryptocurrency*, which is a popular investment of today's age, particularly in Bitcoin. However, the U.S. Securities and Exchange Commission warns that high-risk accompanies these investments[^1]. 
 
 Artificial Intelligence (AI) can be used to predict the prices' behavior to avoid cryptocurrency coins' severe volatility that can scare away possible investors[^3]. AI and blockchain technology make an ideal partnership in data science; the insights generated from the former and the secure environment ensured by the latter create a goldmine for valuable information. For example, an up-and-coming innovation is the automatic trading of *digital investment assets* by AI, which will hugely outperform trading conducted by humans[^5]. This innovation would not be possible without the construction of a program which can pinpoint the most ideal time to buy and sell. Similarly, AI will be applied in this experiment to predict the future price of cryptocurrencies on a number of different blockchains, including the Electro-Optical System and Ethereum. 
 
-Long short-term memory(LSTM) is a neural network (form of AI) which ingests information and processes data using a *gradient-based learning algorithm*[^6]. This creates an algorithm that always improves with additional parameters which *learns* as it ingests. LSTM neural networks will be employed to analyze pre-existing price data and to generate the future price in varying timetables, such as ten days, several months, or a year from the last date. This project will provide as a boon for insights into investments with potentially great returns. These findings can contribute to a positive cycle of attracting investors to a coin, which results in a price increase, which repeats.
+Long short-term memory (LSTM) is a neural network (form of AI) which ingests information and processes data using a *gradient-based learning algorithm*[^6]. This creates an algorithm that improves with additional parameters; the algorithm *learns* as it ingests. LSTM neural networks will be employed to analyze pre-existing price data and to generate the future price in varying timetables, such as ten days, several months, or a year from the last date. This project will provide as a boon for insights into investments with potentially great returns. These findings can contribute to a positive cycle of attracting investors to a coin, which results in a price increase, which repeats.
 
 - [ ] to provide insights for possible investors
 - [x] more investors = bigger price/increases. good for investors (a cycle). possible benefits of this project
 - [x] explain what LSTM is
-- [ ] can increase the business and popularity/prosperity of these coins. 
+- [x] can increase the business and popularity/prosperity of these coins. 
 - [ ] it is important bc crypto is up-and-coming, will be mainstream
 - [x] end with why the project is good/helpful
 
@@ -79,6 +79,7 @@ Initially, this project was meant to scrape prices using the BeautifulSoup Pytho
 The LSTM model is inspired from Serafeim Loukas's Towards Data Science article, which predicts the TESLA stock price[^7]. This program contains adjustments and changes to that code so that cryptocurrency is analyzed instead.
 
 - [ ] Discuss the transition from beautifulsoup to taking from a kaggle set. Utilizing LSTM neural network to predict future price.
+- [ ] have user input a name of a coin like 'eos' or 'bitcoin' and have that stored as a variable so that it is parsed into the url for yahoo finance, python wget's the appropriate corresponding .csv of the inputted coin and analyzes it
 
 ## 5. Benchmark
 
