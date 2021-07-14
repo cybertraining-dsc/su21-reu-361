@@ -117,8 +117,8 @@ Thank you to Gregor von Laszewski, Yohn Jairo, and Carlos Theran for their valua
 
 [^6]: Sepp Hochreiter and Jürgen Schmidhuber, Long Short-Term Memory, [Online resource]
       <https://www.bioinf.jku.at/publications/older/2604.pdf>
-      
-      
+
+
 [^7]: Serafeim Loukas, Time-Series Forecasting: Predicting Stock Prices Using An LSTM Model, [Online resource]
       <https://towardsdatascience.com/lstm-time-series-forecasting-predicting-stock-prices-using-an-lstm-model-6223e9644a2f>
 
