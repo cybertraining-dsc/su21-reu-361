@@ -39,11 +39,10 @@ Click the following image to be redirected to a YouTube video tutorial for setti
 
 1. If you have not already cloned your reu repository, you need to follow a separate tutorial which involves setting up your SSH key on GitHub, which can be found [here](https://github.com/cybertraining-dsc/su21-reu-361/blob/main/tutorials/github/ssh.md).
 
-1. Open PyCharm. If this is your first time opening PyCharm, then it will say `Welcome to PyCharm`. Click New Project. If you have used PyCharm before, your previous project should open. Click `File` and `New Project`.
-   1. If you would like to change a preexisting project so that it uses a venv, you can open an `.ipynb` or `.py` file, click the box in the top-right that has the Python logo and the name of your current configuration, and click `Edit Configurations...` Note: if it is hard to find this box, it should be next to the green Play button.
+2. Open PyCharm. If this is your first time opening PyCharm, then it will say `Welcome to PyCharm`. You should have cloned your repo to a particular location on your computer; click `Open` and then locate your reu folder. Alternatively, if you have used PyCharm before, your previous project should open. Click `File` and `Open...` to open your repo (if it is not already open).
     
-2. If you followed the tutorial on how to create a venv through Git Bash, you can select `Previously configured interpreter`, click the three dots next to `<No interpreter>`, click the three dots next to `<No interpreter>` again, and then look for the venv. It should be in the C: folder, in the Users directory, in your username directory, in ENV3, Scripts, and then select `python.exe`. Click `OK`.
-   1. If you have not created a venv in Git Bash, you can follow the tutorial on how to do that, or you can select the `New environment using Virtualenv` option.
-   2. If you are trying to change the settings of a preexisting Python project, try creating a venv in Git Bash so that you can change the Python interpreter to the venv (under the Environment section when you click `Edit Configurations...`)
+3. Please ensure that you have already configured a venv through Git Bash. If you have not, then read and follow [this tutorial](https://github.com/cybertraining-dsc/su21-reu-361/blob/main/tutorials/python/venv.md).
     
-3. Click `OK` after selecting the venv Interpreter, and then click `Create` (if creating a new project). After the project loads, try clicking `Terminal` at the bottom. If it says (ENV3), congratulations!
+4. In the top-right of PyCharm, click on the button that reads `Add Configuration...`. Click `Add new...` on the left underneath `No run configurations added.` and then scroll and click `Python`. Give this a name; you can just type `Python venv`. Next to `Python interpreter`, choose `Python x.x (ENV3)`. The `x.x` will depend on which version of Python you have. Then click `OK`.
+
+5. You also have to click `Python x.x` in the bottom-right of PyCharm, next to `main`. From there, choose `Python x.x (ENV3)`. To verify that your virtual environment is working, click on `Terminal` in the bottom-left of PyCharm. Click the `+` (plus) icon next to Local to start a new terminal. It should say `(ENV3)` next to your current working directory. Congratulations!
