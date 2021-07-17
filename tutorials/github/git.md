@@ -48,7 +48,7 @@ As long as Git does not change up their website and hyperlinks, you should be ab
 
 5. Click `Next` unless you would like an icon for Git on the desktop (in which case you can check the box and then click `Next`).
 
-6. Click `Next` to accept the text editor, click `Next` again to `Let Git decide` the default branch name, click `Next` again to run Git from the command line and 3rd party software, click `Next` again to use the OpenSSL library, click `Next` again to checkout Windows-style, click `Next` again to use MinTTY, click `Next` again to use the default git pull, click `Next` again to use the Git Credential Manager Core, click `Next` again to enable file system caching, and then click `Install` because we do not need experimental features.
+6. Click `Next` to accept the text editor, click `Next` again to Let Git decide the default branch name, click `Next` again to run Git from the command line and 3rd party software, click `Next` again to use the OpenSSL library, click `Next` again to checkout Windows-style, click `Next` again to use MinTTY, click `Next` again to use the default git pull, click `Next` again to use the Git Credential Manager Core, click `Next` again to enable file system caching, and then click `Install` because we do not need experimental features.
 
 7. The progress bar should not take too long to finish. Congratulations, you have installed Git and Git Bash! You can search for Git Bash in the Windows search now to run it.
 
