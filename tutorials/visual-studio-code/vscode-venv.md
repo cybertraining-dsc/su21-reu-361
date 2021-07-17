@@ -39,7 +39,7 @@ Click the following image to be redirected to a YouTube video tutorial for setti
 
 2. Open Visual Studio Code. Then, press these keys at the same time: `Ctrl + Shift + P`. Type `interpreter` and click on `Python: Select Interpreter`.
 
-3. Select the one that has the path `~\ENV3\Scripts\python.exe`. It should say ('ENV3':venv) at the bottom left of the window.
+3. Select the one that has the path `~\ENV3\Scripts\python.exe`. After clicking that one, it should now say ('ENV3':venv) at the bottom left of the window.
 
 4. We must edit the settings so that the terminal is cmd, not PowerShell (because PowerShell cannot use venv). Press `Ctrl + Shift + P` at the same time again and type `open settings`. Click `Preferences: Open Settings (JSON)`.
 
