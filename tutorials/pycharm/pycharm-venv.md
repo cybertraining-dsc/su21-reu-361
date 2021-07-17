@@ -33,7 +33,7 @@ Please ensure that you have Git (Git Bash), Python, and PyCharm. If you do not h
 
 This tutorial was created with the REU program in mind, where the students are provided with a GitHub repository. If you are not in REU, then you can create a new repository on GitHub and clone that instead.
 
-Click the following image to be redirected to a YouTube video tutorial for setting venv in PyCharm. You should skip to timestamp 8:19 unless you do not have Git or a venv, in which case you should watch the entire video.
+Click the following image to be redirected to a YouTube video tutorial for setting venv in PyCharm. Please keep in mind that this video follows directions that are somewhat different from the written instructions below. REU students should follow the written instructions over the video. Otherwise, in the video, you should skip to timestamp 8:19 unless you do not have Git or a venv, in which case you should watch the entire video.
 
 {{% youtube HCotEx_xCfA %}}
 
