@@ -29,7 +29,7 @@ Contents
 
 ## Windows
 
-Click the following image to be redirected to a YouTube video tutorial for installing Git and Git Bash.
+Click the following image to be redirected to a YouTube video tutorial for installing Git and Git Bash. This same video also includes instructions to create a virtual Python environment, which you can do as well.
 
 {{% youtube HCotEx_xCfA %}}
 
