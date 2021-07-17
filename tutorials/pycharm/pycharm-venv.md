@@ -31,9 +31,13 @@ Contents
 
 Please ensure that you have Git (Git Bash), Python, and PyCharm. If you do not have those, look for the tutorials to install them.
 
+This tutorial was created with the REU program in mind, where the students are provided with a GitHub repository. If you are not in REU, then you can create a new repository on GitHub and clone that instead.
+
 Click the following image to be redirected to a YouTube video tutorial for setting venv in PyCharm. You should skip to timestamp 8:19 unless you do not have Git or a venv, in which case you should watch the entire video.
 
 {{% youtube HCotEx_xCfA %}}
+
+1. If you have not already cloned your reu repository, you need to follow a separate tutorial which involves setting up your SSH key on GitHub, which can be found [here](https://github.com/cybertraining-dsc/su21-reu-361/blob/main/tutorials/github/ssh.md).
 
 1. Open PyCharm. If this is your first time opening PyCharm, then it will say `Welcome to PyCharm`. Click New Project. If you have used PyCharm before, your previous project should open. Click `File` and `New Project`.
    1. If you would like to change a preexisting project so that it uses a venv, you can open an `.ipynb` or `.py` file, click the box in the top-right that has the Python logo and the name of your current configuration, and click `Edit Configurations...` Note: if it is hard to find this box, it should be next to the green Play button.
