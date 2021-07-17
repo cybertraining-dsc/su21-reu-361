@@ -33,7 +33,7 @@ Click the following image to be redirected to a YouTube video tutorial for insta
 
 {{% youtube HCotEx_xCfA %}}
 
-To verify whether you have Git, you can press `Win + R` on your desktop, type `cmd`, and press `Enter`. Then type `git clone` and press enter. If you do not have Git installed, it will say `'git' is not recognized as an internal or external command...`
+To verify whether you have Git, you can press `Win + R` on your desktop, type `cmd`, and press `Enter`. Then type `git clone` and press `Enter`. If you do not have Git installed, it will say `'git' is not recognized as an internal or external command...`
 
 As long as Git does not change up their website and hyperlinks, you should be able to download Git from here and skip to step 2: https://git-scm.com/downloads
 
