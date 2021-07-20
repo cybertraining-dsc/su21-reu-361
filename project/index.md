@@ -76,7 +76,7 @@ This project utilizes a .csv file containing the historical prices of the EOS co
 
 Initially, this project was meant to scrape prices using the BeautifulSoup Python module; however, slight changes in a financial page's website caused the code to break. Thus, the dataset was no longer created within this program but taken from Yahoo Finance, which contained the coins' price from the day to its inception to the present day.
 
-The LSTM model is inspired from Serafeim Loukas's Towards Data Science article, which predicts the TESLA stock price[^7]. This program contains adjustments and changes to that code so that cryptocurrency is analyzed instead.
+This experiment's code is inspired from Serafeim Loukas's Towards Data Science article, which predicts the TESLA stock price[^7]. This program contains adjustments and changes to that code so that cryptocurrency is analyzed instead. This project opts to use LSTM (long short-term memory) to predict the price because it has a memory capacity, which is ideal for a timeseries data set such as cryptocurrency price over time. LSTM can remember historical patterns and use them to inform further predictions; it can also selectively choose which datapoints to use and which to disregard for the model[^8].
 
 - [ ] Discuss the transition from beautifulsoup to taking from a kaggle set. Utilizing LSTM neural network to predict future price.
 - [ ] have user input a name of a coin like 'eos' or 'bitcoin' and have that stored as a variable so that it is parsed into the url for yahoo finance, python wget's the appropriate corresponding .csv of the inputted coin and analyzes it
@@ -122,5 +122,8 @@ Thank you to Gregor von Laszewski, Yohn Jairo, and Carlos Theran for their valua
 [^7]: Serafeim Loukas, Time-Series Forecasting: Predicting Stock Prices Using An LSTM Model, [Online resource]
       <https://towardsdatascience.com/lstm-time-series-forecasting-predicting-stock-prices-using-an-lstm-model-6223e9644a2f>
 
+
+[^8]: Derk Zomer, Using machine learning to predict future bitcoin prices, [Online resource]
+      <https://towardsdatascience.com/using-machine-learning-to-predict-future-bitcoin-prices-6637e7bfa58f>
 
 
