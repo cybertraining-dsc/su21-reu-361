@@ -66,7 +66,8 @@ drive.mount("/content/gdrive", force_remount=True)
 # The next line of code will tell Colab to read kag_risk_factors_cervical_cancer.csv in your Drive (not in any subfolders)
 # so you should alter the code to match whichever .csv you would like to upload.
 df=pd.read_csv('gdrive/My Drive/kag_risk_factors_cervical_cancer.csv')
-# The next two lines of code convert question marks to NaN and converts values to numeric type, consider removing the next two lines if not necessary.
+# The next two lines of code convert question marks to NaN and converts values to numeric type, consider 
+# removing the next two lines if not necessary.
 df = df.replace('?', np.nan) 
 df=df.apply(pd.to_numeric)
 # If this cell successfully runs then it should output the first five rows, as requested in the next line of code
@@ -114,7 +115,8 @@ necessary, simply proceed to Cell 3. If this still does not work, see [this stac
 Cell 3:
 ```angular2html
 df=pd.read_csv('kag_risk_factors_cervical_cancer.csv')
-# The next two lines of code convert question marks to NaN and converts values to numeric type, consider removing the next two lines if not necessary.
+# The next two lines of code convert question marks to NaN and converts values to numeric type, consider 
+# removing the next two lines if not necessary.
 df = df.replace('?', np.nan) 
 df=df.apply(pd.to_numeric)
 # If this cell successfully runs then it should output the first five rows, as requested in the next line of code
