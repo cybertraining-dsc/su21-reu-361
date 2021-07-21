@@ -31,7 +31,7 @@ Contents
 
 There are two different methods on uploading files to Google Colab Jupyter notebooks. One way is to
 have the user upload the file to the user's Google Drive before running the notebook. Another way
-is to have the notebook ask the user to upload a file from the user's computer directly into the notebook. 
+is to have the notebook ask the user to upload a file from the user's computer directly into the notebook.
 This tutorial outlines both ways.
 
 The notebook code with both methods can be found [here](https://colab.research.google.com/drive/1nUMmLYpz_4fILf6xrJMDWs9_vFFUrZQ6?usp=sharing)
@@ -43,7 +43,7 @@ REU student's code. Nonetheless, it should not be a problem to run the code on G
 automatically imports such modules.
 
 Cell 1:
-```angular2html
+```python
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -55,12 +55,12 @@ from sklearn import metrics
 ```
 
 This code will read a csv file using pandas. Before running Cell 2 which immediately follows this paragraph, the user
-should upload the csv to the Google Drive of the same Google account which is running the notebook in Colab. The
+should upload the csv file to the Google Drive of the same Google account which is running the notebook in Colab. The
 csv in Cell 2 is titled `kag_risk_factors_cervical_cancer` but please rename it accordingly to match the file
 that you would like to upload.
 
 Cell 2:
-```angular2html
+```python
 from google.colab import drive 
 drive.mount("/content/gdrive", force_remount=True)
 # The next line of code will tell Colab to read kag_risk_factors_cervical_cancer.csv in your Drive (not in any subfolders)
@@ -86,7 +86,7 @@ your csv is not in any folders inside of Drive. You can also alter the code to p
 Credit to Carlos Theran for creating this code and troubleshooting
 
 Cell 1:
-```angular2html
+```python
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -98,7 +98,7 @@ from sklearn import metrics
 ```
 
 Cell 2:
-```angular2html
+```python
 from google.colab import files
 df = files.upload()
 ```
@@ -113,7 +113,7 @@ with an arrow icon (to upload a file), then upload the csv you wish to use. Then
 necessary, simply proceed to Cell 3. If this still does not work, see [this stackoverflow page](https://stackoverflow.com/questions/53630073/google-colaboratory-import-data-stack-size-exceeded) for further information.
 
 Cell 3:
-```angular2html
+```python
 df=pd.read_csv('kag_risk_factors_cervical_cancer.csv')
 # The next two lines of code convert question marks to NaN and converts values to numeric type, consider 
 # removing the next two lines if not necessary.
