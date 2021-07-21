@@ -16,7 +16,7 @@ resources:
 
 ## Abstract
 
-This tutorial teaches how to import files, such as .csv's, into a Google Colab .ipynb.
+This tutorial teaches how to import .csv's into a Google Colab .ipynb.
 
 Contents
 
