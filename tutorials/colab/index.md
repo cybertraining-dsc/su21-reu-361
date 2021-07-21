@@ -64,7 +64,7 @@ Cell 2:
 from google.colab import drive 
 drive.mount("/content/gdrive", force_remount=True)
 # The next line of code will tell Colab to read kag_risk_factors_cervical_cancer.csv in your Drive (not in any subfolders)
-# so you should rename the file name to match whichever .csv you would like to upload.
+# so you should alter the code to match whichever .csv you would like to upload.
 df=pd.read_csv('gdrive/My Drive/kag_risk_factors_cervical_cancer.csv')
 df = df.replace('?', np.nan) 
 df=df.apply(pd.to_numeric)
