@@ -72,6 +72,10 @@ This project utilizes a .csv file containing the historical prices of the EOS co
 
 ## 3. Architecture
 
+![Figure 2](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/architecture-diagram.png)
+
+**Figure 2:** The process of producing LSTM timeseries based on cryptocurrency price.
+
 Initially, this project was meant to scrape prices using the BeautifulSoup Python module; however, slight changes in a financial page's website caused the code to break. Thus, the dataset was no longer created within this program but taken from Yahoo Finance, which contained the coins' price from the day to its inception to the present day.
 
 This experiment's code is inspired from Serafeim Loukas's Towards Data Science article, which predicts the TESLA stock price[^7]. This program contains adjustments and changes to that code so that cryptocurrency is analyzed instead. This project opts to use LSTM (long short-term memory) to predict the price because it has a memory capacity, which is ideal for a timeseries data set such as cryptocurrency price over time. LSTM can remember historical patterns and use them to inform further predictions; it can also selectively choose which datapoints to use and which to disregard for the model[^8]. For example, this experiment's code excludes the closing price from the model because that is what is predicted; instead, it uses the Open, High, Low, Adj Close, and Volume to guess the closing price.
@@ -80,9 +84,9 @@ This experiment's code is inspired from Serafeim Loukas's Towards Data Science a
 
 The model is run through four layers of long short-term memory. Figure 2 showcases the setup of one of these layers.
 
-![Figure 2](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/lstm.png)
+![Figure 3](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/lstm.png)
 
-**Figre 2:** Visual depiction of one layer of long short-term memory[^9].
+**Figre 3:** Visual depiction of one layer of long short-term memory[^9].
 
 - [ ] Discuss the transition from beautifulsoup to taking from a kaggle set. Utilizing LSTM neural network to predict future price.
 - [ ] have user input a name of a coin like 'eos' or 'bitcoin' and have that stored as a variable so that it is parsed into the url for yahoo finance, python wget's the appropriate corresponding .csv of the inputted coin and analyzes it
