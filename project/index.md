@@ -70,13 +70,11 @@ Long short-term memory (LSTM) is a neural network (form of AI) which ingests inf
 
 This project utilizes a .csv file containing the historical prices of the EOS coin from the first day of its inception on 1 July 2017, to whenever the .csv file is downloaded during program runtime[^4]. From this data, the project will attempt to predict the prices from the end date until the present day.
 
-## 3. Using Images
-
 ![Figure 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/eos_price.png)
 
 **Figure 1:** Line graph of EOS price from 1 July 2017 to 12 December 2020. Generated using timeseries_generator.ipynb located in project/code, utilizing price data from a Yahoo Finance .csv[^4].
 
-## 4. Architecture
+## 3. Architecture
 
 Initially, this project was meant to scrape prices using the BeautifulSoup Python module; however, slight changes in a financial page's website caused the code to break. Thus, the dataset was no longer created within this program but taken from Yahoo Finance, which contained the coins' price from the day to its inception to the present day.
 
@@ -85,19 +83,19 @@ This experiment's code is inspired from Serafeim Loukas's Towards Data Science a
 - [ ] Discuss the transition from beautifulsoup to taking from a kaggle set. Utilizing LSTM neural network to predict future price.
 - [ ] have user input a name of a coin like 'eos' or 'bitcoin' and have that stored as a variable so that it is parsed into the url for yahoo finance, python wget's the appropriate corresponding .csv of the inputted coin and analyzes it
 
-## 5. Benchmark
+## 4. Benchmark
 
 Your project must include a benchmark. The easiest is to use cloudmesh-common
  
-## 6. Conclusion
+## 5. Conclusion
 
 A convincing but not fake conclusion should summarize what the conclusion of the project is.
 
-## 7. Acknowledgments
+## 6. Acknowledgments
 
 Thank you to Gregor von Laszewski, Yohn Jairo, and Carlos Theran for their valuable guidance. Furthermore, thank you to Florida A&M University for graciously funding this scientific excursion.
 
-## 8. References
+## 7. References
 
 [^1]: Lori Schock, Thinking About Buying the Latest New Cryptocurrency or Token?, [Online resource] 
       <https://www.investor.gov/additional-resources/spotlight/directors-take/thinking-about-buying-latest-new-cryptocurrency-or>
