@@ -91,19 +91,19 @@ The model is run through four layers of long short-term memory. Figure 3 showcas
 - [ ] Discuss the transition from beautifulsoup to taking from a kaggle set. Utilizing LSTM neural network to predict future price.
 - [ ] have user input a name of a coin like 'eos' or 'bitcoin' and have that stored as a variable so that it is parsed into the url for yahoo finance, python wget's the appropriate corresponding .csv of the inputted coin and analyzes it
 
-## 4. Benchmark
+## 5. Benchmark
 
 Your project must include a benchmark. The easiest is to use cloudmesh-common
  
-## 5. Conclusion
+## 6. Conclusion
 
 A convincing but not fake conclusion should summarize what the conclusion of the project is.
 
-## 6. Acknowledgments
+## 7. Acknowledgments
 
 Thank you to Gregor von Laszewski, Yohn Jairo, and Carlos Theran for their valuable guidance. Furthermore, thank you to Florida A&M University for graciously funding this scientific excursion.
 
-## 7. References
+## 8. References
 
 [^1]: Lori Schock, Thinking About Buying the Latest New Cryptocurrency or Token?, [Online resource] 
       <https://www.investor.gov/additional-resources/spotlight/directors-take/thinking-about-buying-latest-new-cryptocurrency-or>
