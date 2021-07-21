@@ -135,8 +135,8 @@ Thank you to Gregor von Laszewski, Yohn Jairo, and Carlos Theran for their valua
 
 [^8]: Derk Zomer, Using machine learning to predict future bitcoin prices, [Online resource]
       <https://towardsdatascience.com/using-machine-learning-to-predict-future-bitcoin-prices-6637e7bfa58f>
-      
-      
+
+
 [^9]: Christopher Olah, Understanding LSTM Networks, [Online resource]
       <https://colah.github.io/posts/2015-08-Understanding-LSTMs/>
 
