@@ -86,7 +86,7 @@ The model is run through four layers of long short-term memory. Figure 2 showcas
 
 ![Figure 3](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/lstm.png)
 
-**Figre 3:** Visual depiction of one layer of long short-term memory[^9].
+**Figure 3:** Visual depiction of one layer of long short-term memory[^9].
 
 - [ ] Discuss the transition from beautifulsoup to taking from a kaggle set. Utilizing LSTM neural network to predict future price.
 - [ ] have user input a name of a coin like 'eos' or 'bitcoin' and have that stored as a variable so that it is parsed into the url for yahoo finance, python wget's the appropriate corresponding .csv of the inputted coin and analyzes it
