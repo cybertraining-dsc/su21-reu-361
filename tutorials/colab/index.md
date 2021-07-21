@@ -16,7 +16,7 @@ resources:
 
 ## Abstract
 
-This tutorial teaches how to import .csv's into a Google Colab .ipynb.
+This tutorial teaches how to import csv's into a Google Colab .ipynb.
 
 Contents
 
@@ -29,7 +29,7 @@ Contents
 
 ## Note
 
-There are two different methods on uploading files to Google Colab Jupyter notebooks (.ipynb). One way is to
+There are two different methods on uploading files to Google Colab Jupyter notebooks. One way is to
 have the user upload the file to the user's Google Drive before running the notebook. Another way
 is to have the notebook ask the user to upload a file from the user's computer directly into the notebook. 
 This tutorial outlines both ways.
@@ -66,10 +66,11 @@ drive.mount("/content/gdrive", force_remount=True)
 # The next line of code will tell Colab to read kag_risk_factors_cervical_cancer.csv in your Drive (not in any subfolders)
 # so you should alter the code to match whichever .csv you would like to upload.
 df=pd.read_csv('gdrive/My Drive/kag_risk_factors_cervical_cancer.csv')
+# The next two lines of code convert question marks to NaN and converts values to numeric type, consider removing the next two lines if not necessary.
 df = df.replace('?', np.nan) 
 df=df.apply(pd.to_numeric)
+# If this cell successfully runs then it should output the first five rows, as requested in the next line of code
 df.head(5)
-# If this cell successfully runs then it should output the first five rows
 ```
 
 Colab will ask you to click on a blue link and to sign in with your account. Once done, the user must copy a code
@@ -113,8 +114,10 @@ necessary, simply proceed to Cell 3. If this still does not work, see [this stac
 Cell 3:
 ```angular2html
 df=pd.read_csv('kag_risk_factors_cervical_cancer.csv')
+# The next two lines of code convert question marks to NaN and converts values to numeric type, consider removing the next two lines if not necessary.
 df = df.replace('?', np.nan) 
 df=df.apply(pd.to_numeric)
+# If this cell successfully runs then it should output the first five rows, as requested in the next line of code
 df.head(5)
 ```
 
