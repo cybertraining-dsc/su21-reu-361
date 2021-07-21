@@ -47,10 +47,6 @@ Contents
 - [ ] What is my conclusion?
 - [ ] Never, ever use the words 'I' or 'my' in a report
 
-## Tutorials
-
-- [x] Install software Visual Studio Code (create video tutorial or written instructions)
-
 ## 1. Introduction
 
 Blockchain is *an open, distributed ledger* which records transactions of cryptocurrency. Systems in blockchain are decentralized, which means that these transactions are shared and distributed among all participants on the blockchain for maximum accountability. Furthermore, this new blockchain technology is becoming an increasingly popular alternative to mainstream transactions through traditional banks[^2]. These transactions utilize blockchain-based *cryptocurrency*, which is a popular investment of today's age, particularly in Bitcoin. However, the U.S. Securities and Exchange Commission warns that high-risk accompanies these investments[^1]. 
@@ -79,6 +75,14 @@ This project utilizes a .csv file containing the historical prices of the EOS co
 Initially, this project was meant to scrape prices using the BeautifulSoup Python module; however, slight changes in a financial page's website caused the code to break. Thus, the dataset was no longer created within this program but taken from Yahoo Finance, which contained the coins' price from the day to its inception to the present day.
 
 This experiment's code is inspired from Serafeim Loukas's Towards Data Science article, which predicts the TESLA stock price[^7]. This program contains adjustments and changes to that code so that cryptocurrency is analyzed instead. This project opts to use LSTM (long short-term memory) to predict the price because it has a memory capacity, which is ideal for a timeseries data set such as cryptocurrency price over time. LSTM can remember historical patterns and use them to inform further predictions; it can also selectively choose which datapoints to use and which to disregard for the model[^8]. For example, this experiment's code excludes the closing price from the model because that is what is predicted; instead, it uses the Open, High, Low, Adj Close, and Volume to guess the closing price.
+
+## 4. Implementation
+
+The model is run through four layers of long short-term memory. Figure 2 showcases the setup of one of these layers.
+
+![Figure 2](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/lstm.png)
+
+**Figre 2:** Visual depiction of one layer of long short-term memory[^9].
 
 - [ ] Discuss the transition from beautifulsoup to taking from a kaggle set. Utilizing LSTM neural network to predict future price.
 - [ ] have user input a name of a coin like 'eos' or 'bitcoin' and have that stored as a variable so that it is parsed into the url for yahoo finance, python wget's the appropriate corresponding .csv of the inputted coin and analyzes it
@@ -127,5 +131,9 @@ Thank you to Gregor von Laszewski, Yohn Jairo, and Carlos Theran for their valua
 
 [^8]: Derk Zomer, Using machine learning to predict future bitcoin prices, [Online resource]
       <https://towardsdatascience.com/using-machine-learning-to-predict-future-bitcoin-prices-6637e7bfa58f>
+      
+      
+[^9]: Christopher Olah, Understanding LSTM Networks, [Online resource]
+      <https://colah.github.io/posts/2015-08-Understanding-LSTMs/>
 
 
