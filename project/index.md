@@ -82,7 +82,7 @@ This experiment's code is inspired from Serafeim Loukas's Towards Data Science a
 
 ## 4. Implementation
 
-The model is run through four layers of long short-term memory. Figure 2 showcases the setup of one of these layers.
+The model is run through four layers of long short-term memory. Figure 3 showcases the setup of one of these layers.
 
 ![Figure 3](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/lstm.png)
 
