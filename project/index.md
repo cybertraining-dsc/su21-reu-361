@@ -78,7 +78,7 @@ This project utilizes a .csv file containing the historical prices of the EOS co
 
 Initially, this project was meant to scrape prices using the BeautifulSoup Python module; however, slight changes in a financial page's website caused the code to break. Thus, the dataset was no longer created within this program but taken from Yahoo Finance, which contained the coins' price from the day to its inception to the present day.
 
-This experiment's code is inspired from Serafeim Loukas's Towards Data Science article, which predicts the TESLA stock price[^7]. This program contains adjustments and changes to that code so that cryptocurrency is analyzed instead. This project opts to use LSTM (long short-term memory) to predict the price because it has a memory capacity, which is ideal for a timeseries data set such as cryptocurrency price over time. LSTM can remember historical patterns and use them to inform further predictions; it can also selectively choose which datapoints to use and which to disregard for the model[^8]. For example, this experiment's code excludes the closing price from the model because that is what is predicted; instead, it uses the Open, High, Low, Adj Close, and Volume to guess the closing price.
+This experiment's code is inspired from Towards Data Science articles by Serafeim Loukas[^7] and Viraf[^11], who explore using LSTM to predict stock timeseries. This program contains adjustments and changes to their code so that cryptocurrency is analyzed instead. This project opts to use LSTM (long short-term memory) to predict the price because it has a memory capacity, which is ideal for a timeseries data set such as cryptocurrency price over time. LSTM can remember historical patterns and use them to inform further predictions; it can also selectively choose which datapoints to use and which to disregard for the model[^8]. For example, this experiment's code excludes the closing price from the model because that is what is predicted; instead, it uses the Open, High, Low, Adj Close, and Volume to guess the closing price.
 
 ## 4. Implementation
 
@@ -177,6 +177,10 @@ Thank you to Gregor von Laszewski, Yohn Jairo, and Carlos Theran for their valua
 
 
 [^10]: Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
-      <https://github.com/cloudmesh/cloudmesh-common>
+       <https://github.com/cloudmesh/cloudmesh-common>
+      
+      
+[^11]: Viraf, How (NOT) To Predict Stock Prices With LSTMs, [Online resource]
+       <https://towardsdatascience.com/how-not-to-predict-stock-prices-with-lstms-a51f564ccbca>
 
 
