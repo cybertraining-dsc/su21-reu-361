@@ -73,7 +73,7 @@ This project utilizes yfinance, a Python module which downloads the historical p
 
 ## 3. Architecture
 
-![Figure 2](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/architecture-diagram.png)
+![Figure 2](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/architecture-process.png)
 
 **Figure 2:** The process of producing LSTM timeseries based on cryptocurrency price.
 
