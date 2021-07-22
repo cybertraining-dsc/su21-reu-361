@@ -93,7 +93,40 @@ The model is run through four layers of long short-term memory. Figure 3 showcas
 
 ## 5. Benchmark
 
-Your project must include a benchmark. The easiest is to use cloudmesh-common
+```
++------------------+--------------------------------------------------------------------------------+
+| Attribute        | Value                                                                          |
+|------------------+--------------------------------------------------------------------------------|
+| cpu              |                                                                                |
+| cpu_cores        | 6                                                                              |
+| cpu_count        | 12                                                                             |
+| cpu_threads      | 12                                                                             |
+| frequency        | scpufreq(current=3600.0, min=0.0, max=3600.0)                                  |
+| mem.available    | 2.6 GiB                                                                        |
+| mem.free         | 2.6 GiB                                                                        |
+| mem.percent      | 83.6 %                                                                         |
+| mem.total        | 16.0 GiB                                                                       |
+| mem.used         | 13.3 GiB                                                                       |
+| platform.version | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free')                             |
+| python           | 3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)] |
+| python.pip       | 21.1.3                                                                         |
+| python.version   | 3.9.5                                                                          |
+| sys.platform     | win32                                                                          |
+| uname.machine    | AMD64                                                                          |
+| uname.node       | Sledgehammer                                                                   |
+| uname.processor  | AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD                             |
+| uname.release    | 10                                                                             |
+| uname.system     | Windows                                                                        |
+| uname.version    | 10.0.19043                                                                     |
+| user             | Sledgehammer                                                                   |
++------------------+--------------------------------------------------------------------------------+
+
++---------------+----------+---------+---------+---------------------+-------+-------+--------------+--------------+---------+----------------------------------------------------+
+| Name          | Status   |    Time |     Sum | Start               | tag   | msg   | Node         | User         | OS      | Version                                            |
+|---------------+----------+---------+---------+---------------------+-------+-------+--------------+--------------+---------+----------------------------------------------------|
+| Training time | ok       | 138.126 | 138.126 | 2021-07-22 03:08:22 |       |       | Sledgehammer | Sledgehammer | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
++---------------+----------+---------+---------+---------------------+-------+-------+--------------+--------------+---------+----------------------------------------------------+
+```
  
 ## 6. Conclusion
 
