@@ -178,8 +178,8 @@ Thank you to Gregor von Laszewski, Yohn Jairo, and Carlos Theran for their valua
 
 [^10]: Gregor von Laszewski, Cloudmesh StopWatch and Benchmark from the Cloudmesh Common Library, [GitHub]
        <https://github.com/cloudmesh/cloudmesh-common>
-      
-      
+
+
 [^11]: Viraf, How (NOT) To Predict Stock Prices With LSTMs, [Online resource]
        <https://towardsdatascience.com/how-not-to-predict-stock-prices-with-lstms-a51f564ccbca>
 
