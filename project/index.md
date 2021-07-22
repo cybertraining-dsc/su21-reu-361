@@ -26,7 +26,7 @@ Jacques Fleischer, [su21-reu-361](https://github.com/cybertraining-dsc/su21-reu-
 
 This project applies neural networks and Artificial Intelligence (AI) to historical records of high-risk cryptocurrency coins to train a prediction model that guesses their price. The code in this project contains Jupyter notebooks, one of which outputs a timeseries graph of any cryptocurrency price once a csv file of the historical data is inputted into the program. Another Jupyter notebook trains an LSTM, or a long short-term memory model, to predict a cryptocurrency's closing price. The LSTM is fed the open, high, low, adjusted close, and volume of the coin; the close is purposefully excluded because that is what the model is trying to correctly guess. The notebook creates two sets: a training set and a test set to assess the accuracy of the results.
 
-The data is then normalized using manual min-max scaling so that the model does not experience any bias; this also enhances the performance of the model. The original data and the min-max scaled data is plotted as a graph, which should output identical graphs to confirm that the data is not altered— only scaled for the model's convenience. Then, the model is trained using four LSTM layers, minimizing the loss through 100 epochs of training; from this training, a RNN (recurrent neural network) is produced and fitted to the training set. Finally, the notebook plots a line graph of the actual currency price in red and the predicted price in blue.
+The data is then normalized using manual min-max scaling so that the model does not experience any bias; this also enhances the performance of the model. The original data and the min-max scaled data is plotted as a graph, which should output identical graphs to confirm that the data is not altered— only scaled for the model's convenience. Then, the model is trained using three layers— an LSTM, dropout, and dense layer— minimizing the loss through 50 epochs of training; from this training, an RNN (recurrent neural network) is produced and fitted to the training set. Finally, the notebook plots a line graph of the actual currency price in red and the predicted price in blue.
 
 Contents
 
@@ -76,13 +76,13 @@ This project utilizes a .csv file containing the historical prices of the EOS co
 
 **Figure 2:** The process of producing LSTM timeseries based on cryptocurrency price.
 
+## 4. Implementation
+
 Initially, this project was meant to scrape prices using the BeautifulSoup Python module; however, slight changes in a financial page's website caused the code to break. Thus, the dataset was no longer created within this program but taken from Yahoo Finance, which contained the coins' price from the day to its inception to the present day.
 
 This experiment's code is inspired from Towards Data Science articles by Serafeim Loukas[^7] and Viraf[^11], who explore using LSTM to predict stock timeseries. This program contains adjustments and changes to their code so that cryptocurrency is analyzed instead. This project opts to use LSTM (long short-term memory) to predict the price because it has a memory capacity, which is ideal for a timeseries data set such as cryptocurrency price over time. LSTM can remember historical patterns and use them to inform further predictions; it can also selectively choose which datapoints to use and which to disregard for the model[^8]. For example, this experiment's code excludes the closing price from the model because that is what is predicted; instead, it uses the Open, High, Low, Adj Close, and Volume to guess the closing price.
 
-## 4. Implementation
-
-The model is run through four layers of long short-term memory. Figure 3 showcases the setup of one of these layers.
+The model is run through a layer of long short-term memory. Figure 3 showcases the setup of one of these layers.
 
 ![Figure 3](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/lstm.png)
 
@@ -104,11 +104,11 @@ The amount of time it takes to train the 100 epochs for the LSTM is around 2 min
 | cpu_count        | 12                                                                             |
 | cpu_threads      | 12                                                                             |
 | frequency        | scpufreq(current=3600.0, min=0.0, max=3600.0)                                  |
-| mem.available    | 2.6 GiB                                                                        |
-| mem.free         | 2.6 GiB                                                                        |
-| mem.percent      | 83.6 %                                                                         |
+| mem.available    | 2.4 GiB                                                                        |
+| mem.free         | 2.4 GiB                                                                        |
+| mem.percent      | 84.7 %                                                                         |
 | mem.total        | 16.0 GiB                                                                       |
-| mem.used         | 13.3 GiB                                                                       |
+| mem.used         | 13.5 GiB                                                                       |
 | platform.version | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free')                             |
 | python           | 3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)] |
 | python.pip       | 21.1.3                                                                         |
@@ -123,16 +123,18 @@ The amount of time it takes to train the 100 epochs for the LSTM is around 2 min
 | user             | Sledgehammer                                                                   |
 +------------------+--------------------------------------------------------------------------------+
 
-+---------------+----------+---------+---------+---------------------+-------+-------+--------------+--------------+---------+----------------------------------------------------+
-| Name          | Status   |    Time |     Sum | Start               | tag   | msg   | Node         | User         | OS      | Version                                            |
-|---------------+----------+---------+---------+---------------------+-------+-------+--------------+--------------+---------+----------------------------------------------------|
-| Training time | ok       | 138.126 | 138.126 | 2021-07-22 03:08:22 |       |       | Sledgehammer | Sledgehammer | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
-+---------------+----------+---------+---------+---------------------+-------+-------+--------------+--------------+---------+----------------------------------------------------+
++-----------------+----------+--------+--------+---------------------+-------+-------+--------------+--------------+---------+----------------------------------------------------+
+| Name            | Status   |   Time |    Sum | Start               | tag   | msg   | Node         | User         | OS      | Version                                            |
+|-----------------+----------+--------+--------+---------------------+-------+-------+--------------+--------------+---------+----------------------------------------------------|
+| Training time   | ok       | 15.924 | 94.377 | 2021-07-22 18:31:57 |       |       | Sledgehammer | Sledgehammer | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
+| Overall time    | ok       | 17.279 | 68.414 | 2021-07-22 18:31:56 |       |       | Sledgehammer | Sledgehammer | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
+| Prediction time | ok       |  0.235 |  1.412 | 2021-07-22 18:32:13 |       |       | Sledgehammer | Sledgehammer | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
++-----------------+----------+--------+--------+---------------------+-------+-------+--------------+--------------+---------+----------------------------------------------------+
 ```
  
 ## 6. Conclusion
 
-A convincing but not fake conclusion should summarize what the conclusion of the project is.
+At first glance, the results look promising as the predictions have minimal deviation from the true values. However, upon closer look, the values lag by one day, which is a sign that they are only viewing the previous day and mimicking those values. Furthermore, the model cannot go several days or years into the future because there is no data to run on, such as opening price or volume. For future research, tweets can be scraped from Twitter so that a model can guess whether public discussion of a cryptocurrency is favorable or unfavorable (and whether the price will increase as a result).
 
 ## 7. Acknowledgments
 
