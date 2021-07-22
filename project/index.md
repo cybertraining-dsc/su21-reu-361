@@ -93,7 +93,7 @@ The model is run through four layers of long short-term memory. Figure 3 showcas
 
 ## 5. Benchmark
 
-The amount of time it takes to train the 100 epochs for the LSTM is around 2 minutes. A StopWatch module was used from the package cloudmesh-common[^10].
+The amount of time it takes to train the 100 epochs for the LSTM is around 2 minutes. A StopWatch module was used from the package cloudmesh-common[^10] to precisely measure the training time.
 
 ```
 +------------------+--------------------------------------------------------------------------------+
