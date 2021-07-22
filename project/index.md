@@ -88,6 +88,16 @@ The model is run through a layer of long short-term memory. Figure 3 showcases t
 
 **Figure 3:** Visual depiction of one layer of long short-term memory[^9].
 
+When the model was trained, the program generated these line graphs as a result.
+
+![Figure 4](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/prediction-model.png)
+
+**Figure 4:** EOS price overlayed with the latest 200 days predicted by LSTM
+
+![Figure 5](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/prediction-model-zoomed.png)
+
+**Figure 5:** Zoomed-in graph
+
 - [ ] Discuss the transition from beautifulsoup to taking from a kaggle set. Utilizing LSTM neural network to predict future price.
 - [ ] have user input a name of a coin like 'eos' or 'bitcoin' and have that stored as a variable so that it is parsed into the url for yahoo finance, python wget's the appropriate corresponding .csv of the inputted coin and analyzes it
 
