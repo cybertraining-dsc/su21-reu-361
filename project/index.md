@@ -96,7 +96,7 @@ When the model was trained, the program generated these line graphs as a result.
 
 ## 5. Benchmark
 
-The amount of time it takes to train the 50 epochs for the LSTM is around 15 seconds. A StopWatch module was used from the package cloudmesh-common[^10] to precisely measure the training time.
+The amount of time it takes to train the 50 epochs for the LSTM is around 16 seconds. A StopWatch module was used from the package cloudmesh-common[^10] to precisely measure the training time.
 
 ```
 +------------------+--------------------------------------------------------------------------------+
