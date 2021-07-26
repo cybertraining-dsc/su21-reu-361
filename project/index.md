@@ -179,12 +179,12 @@ Thank you to Gregor von Laszewski, Yohn Jairo, and Carlos Theran for their inval
 
 [^11]: Viraf, How (NOT) To Predict Stock Prices With LSTMs, [Online resource]
        <https://towardsdatascience.com/how-not-to-predict-stock-prices-with-lstms-a51f564ccbca>
-       
-      
+
+
 [^12]: Jacques Fleischer, README.md Install Documentation, [GitHub]
        <https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/code/README.md>
-       
-       
+
+
 [^13]: Jacques Fleischer, yfinance-lstm.ipynb Jupyter Notebook, [GitHub]
        <https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/code/yfinance-lstm.ipynb>
 
