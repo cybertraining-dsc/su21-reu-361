@@ -26,7 +26,7 @@ Jacques Fleischer, [su21-reu-361](https://github.com/cybertraining-dsc/su21-reu-
 
 This project applies neural networks and Artificial Intelligence (AI) to historical records of high-risk cryptocurrency coins to train a prediction model that guesses their price. The code in this project contains Jupyter notebooks, one of which outputs a timeseries graph of any cryptocurrency price once a csv file of the historical data is inputted into the program. Another Jupyter notebook trains an LSTM, or a long short-term memory model, to predict a cryptocurrency's closing price. The LSTM is fed the close price, which is the price that the currency has at the end of the day, so it can learn from those values. The notebook creates two sets: a training set and a test set to assess the accuracy of the results.
 
-The data is then normalized using manual min-max scaling so that the model does not experience any bias; this also enhances the performance of the model. Then, the model is trained using three layers— an LSTM, dropout, and dense layer— minimizing the loss through 50 epochs of training; from this training, an RNN (recurrent neural network) is produced and fitted to the training set. Additionally, a graph of the loss over each epoch is produced, with the loss minimizing over time. Finally, the notebook plots a line graph of the actual currency price in red and the predicted price in blue. The process is then repeated for several more cryptocurrencies to compare prediction models. The parameters for the LSTM, such as number of epochs and batch size, are tweaked to try and minimize the root mean square error.
+The data is then normalized using manual min-max scaling so that the model does not experience any bias; this also enhances the performance of the model. Then, the model is trained using three layers— an LSTM, dropout, and dense layer—minimizing the loss through 50 epochs of training; from this training, a recurrent neural network (RNN) is produced and fitted to the training set. Additionally, a graph of the loss over each epoch is produced, with the loss minimizing over time. Finally, the notebook plots a line graph of the actual currency price in red and the predicted price in blue. The process is then repeated for several more cryptocurrencies to compare prediction models. The parameters for the LSTM, such as number of epochs and batch size, are tweaked to try and minimize the root mean square error.
 
 Contents
 
@@ -62,16 +62,23 @@ This project utilizes yfinance, a Python module which downloads the historical p
 
 Initially, this project was meant to scrape prices using the BeautifulSoup Python module; however, slight changes in a financial page's website caused the code to break. Thus, the dataset was no longer created within this program but taken from Yahoo Finance, which contained the coins' price from the day to its inception to the present day.
 
-This experiment's code is inspired from Towards Data Science articles by Serafeim Loukas[^7] and Viraf[^11], who explore using LSTM to predict stock timeseries. This program contains adjustments and changes to their code so that cryptocurrency is analyzed instead. This project opts to use LSTM (long short-term memory) to predict the price because it has a memory capacity, which is ideal for a timeseries data set such as cryptocurrency price over time. LSTM can remember historical patterns and use them to inform further predictions; it can also selectively choose which datapoints to use and which to disregard for the model[^8]. For example, this experiment's code isolates only the close values to predict them and nothing else.
+The code is inspired from Towards Data Science articles by Serafeim Loukas[^7] and Viraf[^11], who explore using LSTM to predict stock timeseries. This program contains adjustments and changes to their code so that cryptocurrency is analyzed instead. This project opts to use LSTM (long short-term memory) to predict the price because it has a memory capacity, which is ideal for a timeseries data set analysis such as cryptocurrency price over time. LSTM can remember historical patterns and use them to inform further predictions; it can also selectively choose which datapoints to use and which to disregard for the model[^8]. For example, this experiment's code isolates only the close values to predict them and nothing else.
 
-Firstly, the code asks the user for the ticker of the cryptocurrency that is to be predicted, such as EOS-USD or BTC-USD. Then, the historical data for the corresponding coin is downloaded through the yfinance Python module. The data must go through normalization for simplicity and optimization of the model. Next, the Close data is split into two sets: a training set and a test set, which are further split into their own respective x and y sets to guide the model through training. 
+Firstly, the code asks the user for the ticker of the cryptocurrency that is to be predicted, such as EOS-USD or BTC-USD. 
+
+- [ ] (A complete list of such codes is avalable at ...).
+
+Then, the historical data for the corresponding coin is downloaded through the yfinance Python module. The data must go through normalization for simplicity and optimization of the model. Next, the Close data is split into two sets: a training set and a test set, which are further split into their own respective x and y sets to guide the model through training. 
+
+- [ ] it is unclear what Close data is
+
 The training model is run through a layer of long short-term memory, as well as a dropout layer to prevent overfitting and a dense layer to give the model a memory capacity. Figure 3 showcases the setup of the LSTM layer.
 
 ![Figure 3](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/lstm.png)
 
 **Figure 3:** Visual depiction of one layer of long short-term memory[^9].
 
-The program generated this line graph of the prediction model after training. Note that only the last 200 days are predicted so that the model can analyze the preexisting data prior to the 200 days for training purposes.
+The program generated this (NOTCLEAR WHAT THIS IS, REFER TI IFIGURE NUMBER) line graph of the prediction model after training. Note that only the last 200 days are predicted so that the model can analyze the preexisting data prior to the 200 days for training purposes.
 
 ![Figure 4](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/prediction-model.png)
 
@@ -85,6 +92,9 @@ The program generated this line graph of the prediction model after training. No
 - [ ] have user input a name of a coin like 'eos' or 'bitcoin' and have that stored as a variable so that it is parsed into the url for yahoo finance, python wget's the appropriate corresponding .csv of the inputted coin and analyzes it
 
 ## 5. Benchmark
+
+- [ ] where is benchmark run.
+- [ ] what is HW
 
 The amount of time it takes to train the 50 epochs for the LSTM is around 16 seconds. A StopWatch module was used from the package cloudmesh-common[^10] to precisely measure the training time.
 
@@ -115,6 +125,9 @@ The amount of time it takes to train the 50 epochs for the LSTM is around 16 sec
 | uname.version    | 10.0.19043                                                                     |
 | user             | Sledgehammer                                                                   |
 +------------------+--------------------------------------------------------------------------------+
+
+
+- [ ] you can remove some of the columns, such as tag, msg, user, Node
 
 +-----------------+----------+--------+--------+---------------------+-------+-------+--------------+--------------+---------+----------------------------------------------------+
 | Name            | Status   |   Time |    Sum | Start               | tag   | msg   | Node         | User         | OS      | Version                                            |
