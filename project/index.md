@@ -71,7 +71,7 @@ The training model is run through a layer of long short-term memory, as well as 
 
 **Figure 3:** Visual depiction of one layer of long short-term memory[^9].
 
-When the model was trained, the program generated these line graphs as a result.
+The program generated this line graph of the prediction model after training.
 
 ![Figure 4](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/prediction-model.png)
 
