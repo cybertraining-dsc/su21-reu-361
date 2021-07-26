@@ -19,4 +19,4 @@ Enter it, and the program should do the rest.
 However, near the end of the program, there is a line that zooms into the axes of
 the graph. The parameters should be manually changed so that it zooms into a point
 of interest. Because cryptocurrencies have wildly varying prices, this must be
-changed on a case-by-case basis
+changed on a case-by-case basis.
