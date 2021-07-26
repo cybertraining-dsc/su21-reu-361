@@ -20,9 +20,11 @@ Status: draft, Type: Project
 
 Jacques Fleischer, [su21-reu-361](https://github.com/cybertraining-dsc/su21-reu-361), [Edit](https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/index.md)
 
-{{% pageinfo %}}
+* Code:
+  * [Install documentation README.md](https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/code/README.md)[^12]
+  * [yfinance-lstm.ipynb](https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/code/yfinance-lstm.ipynb)[^13]
 
-- [x] Process figure does not have errows to showcase the flow of the process ...
+{{% pageinfo %}}
 
 ## Abstract
 
@@ -131,7 +133,7 @@ For future research, a program can scrape tweets from influencers' Twitter pages
 
 ## 7. Acknowledgments
 
-Thank you to Gregor von Laszewski, Yohn Jairo, and Carlos Theran for their valuable guidance. Furthermore, thank you to Florida A&M University for graciously funding this scientific excursion.
+Thank you to Gregor von Laszewski, Yohn Jairo, and Carlos Theran for their invaluable guidance. Furthermore, thank you to Florida A&M University for graciously funding this scientific excursion.
 
 ## 8. References
 
@@ -177,5 +179,13 @@ Thank you to Gregor von Laszewski, Yohn Jairo, and Carlos Theran for their valua
 
 [^11]: Viraf, How (NOT) To Predict Stock Prices With LSTMs, [Online resource]
        <https://towardsdatascience.com/how-not-to-predict-stock-prices-with-lstms-a51f564ccbca>
+
+
+[^12]: Jacques Fleischer, README.md Install Documentation, [GitHub]
+       <https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/code/README.md>
+
+
+[^13]: Jacques Fleischer, yfinance-lstm.ipynb Jupyter Notebook, [GitHub]
+       <https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/code/yfinance-lstm.ipynb>
 
 

@@ -2,10 +2,10 @@
 
 Please ensure you have downloaded the code folder. GitHub and git makes this easy
 through cloning of the repo. Cloning is impossible without first installing Git.
-Also, an IDE must be installed, such as PyCharm or Visual Studio Code.
-
 Alternatively one can download the repository as a ZIP and extract it by clicking
-the green Code button on GitHub.
+the green Code button on GitHub. Also, an IDE must be installed, such as PyCharm 
+or Visual Studio Code.
+
 
 Once downloaded, open the yfinance-lstm.ipynb in an IDE, preferably in a Python
 virtual environment. Tutorials on how to start a virtual environment are in the
