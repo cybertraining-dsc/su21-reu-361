@@ -90,10 +90,9 @@ The program generated Figure 4, a line graph of the prediction model after train
 
 The benchmark is run within yfinance-lstm.ipynb located in project/code. The program ran on a 64-bit Windows 10 Home Edition (21H1) computer with a Ryzen 5 3600 processor (3.6 GHz). It also has dual-channel 16 GB RAM clocked at 3200 MHz and a GTX 1660 Ventus XS OC graphics card. The amount of time it takes to train the 50 epochs for the LSTM is around 16 seconds. A StopWatch module was used from the package cloudmesh-common[^10] to precisely measure the training time.
 
-```
-+------------------+--------------------------------------------------------------------------------+
+|------------------|--------------------------------------------------------------------------------|
 | Attribute        | Value                                                                          |
-|------------------+--------------------------------------------------------------------------------|
+|------------------|--------------------------------------------------------------------------------|
 | cpu              |                                                                                |
 | cpu_cores        | 6                                                                              |
 | cpu_count        | 12                                                                             |
@@ -114,7 +113,7 @@ The benchmark is run within yfinance-lstm.ipynb located in project/code. The pro
 | uname.release    | 10                                                                             |
 | uname.system     | Windows                                                                        |
 | uname.version    | 10.0.19043                                                                     |
-+------------------+--------------------------------------------------------------------------------+
+
 
 +-----------------+----------+--------+--------+---------------------+---------+----------------------------------------------------+
 | Name            | Status   |   Time |    Sum | Start               | OS      | Version                                            |
