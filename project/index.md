@@ -74,7 +74,7 @@ The training model is run through a layer of long short-term memory, as well as 
 
 ![Figure 3](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/lstm.png)
 
-**Figure 3:** Visual depiction of one layer of long short-term memory[^9].
+**Figure 3:** Visual depiction of one layer of long short-term memory[^9]
 
 The program generated Figure 4, a line graph of the prediction model after training. Note that only the last 200 days are predicted so that the model can analyze the preexisting data prior to the 200 days for training purposes.
 
@@ -89,10 +89,8 @@ The program generated Figure 4, a line graph of the prediction model after train
 ## 5. Benchmark
 
 The benchmark is run within yfinance-lstm.ipynb located in project/code. The program ran on a 64-bit Windows 10 Home Edition (21H1) computer with a Ryzen 5 3600 processor (3.6 GHz). It also has dual-channel 16 GB RAM clocked at 3200 MHz and a GTX 1660 Ventus XS OC graphics card. The amount of time it takes to train the 50 epochs for the LSTM is around 16 seconds. A StopWatch module was used from the package cloudmesh-common[^10] to precisely measure the training time.
-
-- [ ] caption missing
  
-**Table xyz:**: caption missing 
+**Table 1:**: First half of cloudmesh benchmark output, which details the specifications and status of the computer at the time of program execution
 
 | Attribute        | Value                                                                          |
 |------------------|--------------------------------------------------------------------------------|
@@ -117,13 +115,13 @@ The benchmark is run within yfinance-lstm.ipynb located in project/code. The pro
 | uname.system     | Windows                                                                        |
 | uname.version    | 10.0.19043                                                                     |
 
-**Table xyz:**: caption missing 
+**Table 2:**: Second half of cloudmesh benchmark output, which reports the execution time of training, overall program, and prediction
 
-| Name            | Status   |   Time |    Sum | Start               | OS      | Version                                            |
-|-----------------|----------|--------|--------|---------------------|---------|----------------------------------------------------|
-| Training time   | ok       | 15.924 | 94.377 | 2021-07-22 18:31:57 | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
-| Overall time    | ok       | 17.279 | 68.414 | 2021-07-22 18:31:56 | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
-| Prediction time | ok       |  0.235 |  1.412 | 2021-07-22 18:32:13 | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
+| Name            |   Time   |    Sum   | Start               | OS      | Version                                            |
+|-----------------|----------|----------|---------------------|---------|----------------------------------------------------|
+| Training time   | 15.924 s | 94.377 s | 2021-07-22 18:31:57 | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
+| Overall time    | 17.279 s | 68.414 s | 2021-07-22 18:31:56 | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
+| Prediction time |  0.235 s |  1.412 s | 2021-07-22 18:32:13 | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
  
 ## 6. Conclusion
 
