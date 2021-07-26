@@ -46,7 +46,7 @@ Long short-term memory (LSTM) is a neural network (form of AI) which ingests inf
 
 ## 2. Datasets
 
-This project utilizes yfinance, a Python module which downloads the historical prices of the EOS coin from the first day of its inception on 1 July 2017, to whichever day the program is executed[^4].
+This project utilizes yfinance, a Python module which downloads the historical prices of a cryptocurrency from the first day of its inception to whichever day the program is executed[^4]. Figure 1 shows the historical data on a line graph when the program receives "EOS-USD" as an input.
 
 ![Figure 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/eos-price.png)
 
