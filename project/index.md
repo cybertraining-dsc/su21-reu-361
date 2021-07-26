@@ -71,7 +71,7 @@ The training model is run through a layer of long short-term memory, as well as 
 
 **Figure 3:** Visual depiction of one layer of long short-term memory[^9].
 
-The program generated this line graph of the prediction model after training.
+The program generated this line graph of the prediction model after training. Note that only the last 200 days are predicted so that the model can analyze the preexisting data prior to the 200 days for training purposes.
 
 ![Figure 4](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/prediction-model.png)
 
