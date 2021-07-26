@@ -90,6 +90,10 @@ The program generated Figure 4, a line graph of the prediction model after train
 
 The benchmark is run within yfinance-lstm.ipynb located in project/code. The program ran on a 64-bit Windows 10 Home Edition (21H1) computer with a Ryzen 5 3600 processor (3.6 GHz). It also has dual-channel 16 GB RAM clocked at 3200 MHz and a GTX 1660 Ventus XS OC graphics card. The amount of time it takes to train the 50 epochs for the LSTM is around 16 seconds. A StopWatch module was used from the package cloudmesh-common[^10] to precisely measure the training time.
 
+- [ ] caption missing
+ 
+**Table xyz:**: caption missing 
+
 | Attribute        | Value                                                                          |
 |------------------|--------------------------------------------------------------------------------|
 | cpu              |                                                                                |
@@ -113,15 +117,13 @@ The benchmark is run within yfinance-lstm.ipynb located in project/code. The pro
 | uname.system     | Windows                                                                        |
 | uname.version    | 10.0.19043                                                                     |
 
+**Table xyz:**: caption missing 
 
-+-----------------+----------+--------+--------+---------------------+---------+----------------------------------------------------+
 | Name            | Status   |   Time |    Sum | Start               | OS      | Version                                            |
-|-----------------+----------+--------+--------+---------------------+---------+----------------------------------------------------|
+|-----------------|----------|--------|--------|---------------------|---------|----------------------------------------------------|
 | Training time   | ok       | 15.924 | 94.377 | 2021-07-22 18:31:57 | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
 | Overall time    | ok       | 17.279 | 68.414 | 2021-07-22 18:31:56 | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
 | Prediction time | ok       |  0.235 |  1.412 | 2021-07-22 18:32:13 | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
-+-----------------+----------+--------+--------+---------------------+---------+----------------------------------------------------+
-```
  
 ## 6. Conclusion
 
