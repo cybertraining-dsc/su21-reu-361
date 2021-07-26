@@ -88,11 +88,23 @@ The program generated Figure 4, a line graph of the prediction model after train
 
 **Figure 5:** Zoomed-in graph
 
+During training, the number of epochs can affect the model loss. The epochs can also affect the Mean Squared Error, which details how close the prediction line is to the true Close values in United States Dollars (USD).
+
+**Table 1:**: Number of epochs compared with mean squared error; all tests were run with EOS-USD as input. The Mean Squared Error is rounded to the nearest thousandth.
+
+| Epochs |   Mean Squared Error   |
+|--------|------------------------|
+| 100    | 0.490 USD              |
+| 50     | 0.485 USD              |
+| 25     | 0.478 USD              |
+| 15     | 0.558 USD              |
+| 5      | 0.924 USD              |
+
 ## 5. Benchmark
 
 The benchmark is run within yfinance-lstm.ipynb located in project/code. The program ran on a 64-bit Windows 10 Home Edition (21H1) computer with a Ryzen 5 3600 processor (3.6 GHz). It also has dual-channel 16 GB RAM clocked at 3200 MHz and a GTX 1660 Ventus XS OC graphics card. The amount of time it takes to train the 50 epochs for the LSTM is around 16 seconds. A StopWatch module was used from the package cloudmesh-common[^10] to precisely measure the training time.
  
-**Table 1:**: First half of cloudmesh benchmark output, which details the specifications and status of the computer at the time of program execution
+**Table 2:**: First half of cloudmesh benchmark output, which details the specifications and status of the computer at the time of program execution
 
 | Attribute        | Value                                                                          |
 |------------------|--------------------------------------------------------------------------------|
@@ -117,7 +129,7 @@ The benchmark is run within yfinance-lstm.ipynb located in project/code. The pro
 | uname.system     | Windows                                                                        |
 | uname.version    | 10.0.19043                                                                     |
 
-**Table 2:**: Second half of cloudmesh benchmark output, which reports the execution time of training, overall program, and prediction
+**Table 3:**: Second half of cloudmesh benchmark output, which reports the execution time of training, overall program, and prediction
 
 | Name            |   Time   |    Sum   | Start               | OS      | Version                                            |
 |-----------------|----------|----------|---------------------|---------|----------------------------------------------------|
