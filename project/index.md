@@ -22,7 +22,7 @@ Jacques Fleischer, [su21-reu-361](https://github.com/cybertraining-dsc/su21-reu-
 
 {{% pageinfo %}}
 
-- [ ] Process figure does not have errows to showcase the flow of the process ...
+- [x] Process figure does not have errows to showcase the flow of the process ...
 
 ## Abstract
 
@@ -66,13 +66,9 @@ Initially, this project was meant to scrape prices using the BeautifulSoup Pytho
 
 The code is inspired from Towards Data Science articles by Serafeim Loukas[^7] and Viraf[^11], who explore using LSTM to predict stock timeseries. This program contains adjustments and changes to their code so that cryptocurrency is analyzed instead. This project opts to use LSTM (long short-term memory) to predict the price because it has a memory capacity, which is ideal for a timeseries data set analysis such as cryptocurrency price over time. LSTM can remember historical patterns and use them to inform further predictions; it can also selectively choose which datapoints to use and which to disregard for the model[^8]. For example, this experiment's code isolates only the close values to predict them and nothing else.
 
-Firstly, the code asks the user for the ticker of the cryptocurrency that is to be predicted, such as EOS-USD or BTC-USD. 
+Firstly, the code asks the user for the ticker of the cryptocurrency that is to be predicted, such as EOS-USD or BTC-USD. A complete list of acceptable inputs is under the Symbol column at https://finance.yahoo.com/cryptocurrencies
 
-- [ ] (A complete list of such codes is avalable at ...).
-
-Then, the historical data for the corresponding coin is downloaded through the yfinance Python module. The data must go through normalization for simplicity and optimization of the model. Next, the Close data is split into two sets: a training set and a test set, which are further split into their own respective x and y sets to guide the model through training. 
-
-- [ ] it is unclear what Close data is
+Then, the historical data for the corresponding coin is downloaded through the yfinance Python module. The data must go through normalization for simplicity and optimization of the model. Next, the Close data (the price that the currency has at the end of the day, everyday since the coin's inception) is split into two sets: a training set and a test set, which are further split into their own respective x and y sets to guide the model through training. 
 
 The training model is run through a layer of long short-term memory, as well as a dropout layer to prevent overfitting and a dense layer to give the model a memory capacity. Figure 3 showcases the setup of the LSTM layer.
 
@@ -95,10 +91,7 @@ The program generated this (NOTCLEAR WHAT THIS IS, REFER TI IFIGURE NUMBER) line
 
 ## 5. Benchmark
 
-- [ ] where is benchmark run.
-- [ ] what is HW
-
-The amount of time it takes to train the 50 epochs for the LSTM is around 16 seconds. A StopWatch module was used from the package cloudmesh-common[^10] to precisely measure the training time.
+The benchmark is run within yfinance-lstm.ipynb located in project/code. The computer used is a 64-bit Windows 10 Home Edition (21H1) with a Ryzen 5 3600 processor (3.6 GHz). It also has dual-channel 16 GB RAM clocked at 3200 MHz and a GTX 1660 Ventus XS OC graphics card. The amount of time it takes to train the 50 epochs for the LSTM is around 16 seconds. A StopWatch module was used from the package cloudmesh-common[^10] to precisely measure the training time.
 
 ```
 +------------------+--------------------------------------------------------------------------------+
@@ -128,16 +121,13 @@ The amount of time it takes to train the 50 epochs for the LSTM is around 16 sec
 | user             | Sledgehammer                                                                   |
 +------------------+--------------------------------------------------------------------------------+
 
-
-- [ ] you can remove some of the columns, such as tag, msg, user, Node
-
-+-----------------+----------+--------+--------+---------------------+-------+-------+--------------+--------------+---------+----------------------------------------------------+
-| Name            | Status   |   Time |    Sum | Start               | tag   | msg   | Node         | User         | OS      | Version                                            |
-|-----------------+----------+--------+--------+---------------------+-------+-------+--------------+--------------+---------+----------------------------------------------------|
-| Training time   | ok       | 15.924 | 94.377 | 2021-07-22 18:31:57 |       |       | Sledgehammer | Sledgehammer | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
-| Overall time    | ok       | 17.279 | 68.414 | 2021-07-22 18:31:56 |       |       | Sledgehammer | Sledgehammer | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
-| Prediction time | ok       |  0.235 |  1.412 | 2021-07-22 18:32:13 |       |       | Sledgehammer | Sledgehammer | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
-+-----------------+----------+--------+--------+---------------------+-------+-------+--------------+--------------+---------+----------------------------------------------------+
++-----------------+----------+--------+--------+---------------------+---------+----------------------------------------------------+
+| Name            | Status   |   Time |    Sum | Start               | OS      | Version                                            |
+|-----------------+----------+--------+--------+---------------------+---------+----------------------------------------------------|
+| Training time   | ok       | 15.924 | 94.377 | 2021-07-22 18:31:57 | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
+| Overall time    | ok       | 17.279 | 68.414 | 2021-07-22 18:31:56 | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
+| Prediction time | ok       |  0.235 |  1.412 | 2021-07-22 18:32:13 | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
++-----------------+----------+--------+--------+---------------------+---------+----------------------------------------------------+
 ```
  
 ## 6. Conclusion
