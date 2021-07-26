@@ -62,7 +62,7 @@ This project utilizes yfinance, a Python module which downloads the historical p
 
 ## 4. Implementation
 
-Initially, this project was meant to scrape prices using the BeautifulSoup Python module; however, slight changes in a financial page's website caused the code to break. Thus, the dataset was no longer created within this program but taken from Yahoo Finance, which contained the coins' price from the day to its inception to the present day.
+Initially, this project was meant to scrape prices using the BeautifulSoup Python module; however, slight changes in a financial page's website caused the code to break. Alternatively, Kaggle offered historical data sets of cryptocurrency, but they were not up to date. Thus, the final method of retrieving data is from Yahoo Finance through the yfinance Python module, which returns the coins' price from the day to its inception to the present day.
 
 The code is inspired from Towards Data Science articles by Serafeim Loukas[^7] and Viraf[^11], who explore using LSTM to predict stock timeseries. This program contains adjustments and changes to their code so that cryptocurrency is analyzed instead. This project opts to use LSTM (long short-term memory) to predict the price because it has a memory capacity, which is ideal for a timeseries data set analysis such as cryptocurrency price over time. LSTM can remember historical patterns and use them to inform further predictions; it can also selectively choose which datapoints to use and which to disregard for the model[^8]. For example, this experiment's code isolates only the close values to predict them and nothing else.
 
@@ -76,7 +76,7 @@ The training model is run through a layer of long short-term memory, as well as 
 
 **Figure 3:** Visual depiction of one layer of long short-term memory[^9].
 
-The program generated this (NOTCLEAR WHAT THIS IS, REFER TI IFIGURE NUMBER) line graph of the prediction model after training. Note that only the last 200 days are predicted so that the model can analyze the preexisting data prior to the 200 days for training purposes.
+The program generated Figure 4, a line graph of the prediction model after training. Note that only the last 200 days are predicted so that the model can analyze the preexisting data prior to the 200 days for training purposes.
 
 ![Figure 4](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/prediction-model.png)
 
@@ -85,9 +85,6 @@ The program generated this (NOTCLEAR WHAT THIS IS, REFER TI IFIGURE NUMBER) line
 ![Figure 5](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/prediction-model-zoomed.png)
 
 **Figure 5:** Zoomed-in graph
-
-- [ ] Discuss the transition from beautifulsoup to taking from a kaggle set. Utilizing LSTM neural network to predict future price.
-- [ ] have user input a name of a coin like 'eos' or 'bitcoin' and have that stored as a variable so that it is parsed into the url for yahoo finance, python wget's the appropriate corresponding .csv of the inputted coin and analyzes it
 
 ## 5. Benchmark
 
