@@ -50,7 +50,7 @@ This project utilizes yfinance, a Python module which downloads the historical p
 
 ![Figure 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/eos-price.png)
 
-**Figure 1:** Line graph of EOS price from 1 July 2017 to 22 July 2021. Generated using timeseries_generator.ipynb located in project/code, utilizing price data from Yahoo Finance[^4].
+**Figure 1:** Line graph of EOS price from 1 July 2017 to 22 July 2021. Generated using yfinance-lstm.ipynb located in project/code, utilizing price data from Yahoo Finance[^4].
 
 ## 3. Architecture
 
