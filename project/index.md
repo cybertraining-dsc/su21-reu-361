@@ -91,7 +91,7 @@ The program generated this (NOTCLEAR WHAT THIS IS, REFER TI IFIGURE NUMBER) line
 
 ## 5. Benchmark
 
-The benchmark is run within yfinance-lstm.ipynb located in project/code. The computer used is a 64-bit Windows 10 Home Edition (21H1) with a Ryzen 5 3600 processor (3.6 GHz). It also has dual-channel 16 GB RAM clocked at 3200 MHz and a GTX 1660 Ventus XS OC graphics card. The amount of time it takes to train the 50 epochs for the LSTM is around 16 seconds. A StopWatch module was used from the package cloudmesh-common[^10] to precisely measure the training time.
+The benchmark is run within yfinance-lstm.ipynb located in project/code. The program ran on a 64-bit Windows 10 Home Edition (21H1) computer with a Ryzen 5 3600 processor (3.6 GHz). It also has dual-channel 16 GB RAM clocked at 3200 MHz and a GTX 1660 Ventus XS OC graphics card. The amount of time it takes to train the 50 epochs for the LSTM is around 16 seconds. A StopWatch module was used from the package cloudmesh-common[^10] to precisely measure the training time.
 
 ```
 +------------------+--------------------------------------------------------------------------------+
@@ -113,12 +113,10 @@ The benchmark is run within yfinance-lstm.ipynb located in project/code. The com
 | python.version   | 3.9.5                                                                          |
 | sys.platform     | win32                                                                          |
 | uname.machine    | AMD64                                                                          |
-| uname.node       | Sledgehammer                                                                   |
 | uname.processor  | AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD                             |
 | uname.release    | 10                                                                             |
 | uname.system     | Windows                                                                        |
 | uname.version    | 10.0.19043                                                                     |
-| user             | Sledgehammer                                                                   |
 +------------------+--------------------------------------------------------------------------------+
 
 +-----------------+----------+--------+--------+---------------------+---------+----------------------------------------------------+
