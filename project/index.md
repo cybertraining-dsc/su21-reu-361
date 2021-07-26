@@ -133,7 +133,7 @@ For future research, a program can scrape tweets from influencers' Twitter pages
 
 ## 7. Acknowledgments
 
-Thank you to Gregor von Laszewski, Yohn Jairo, and Carlos Theran for their valuable guidance. Furthermore, thank you to Florida A&M University for graciously funding this scientific excursion.
+Thank you to Gregor von Laszewski, Yohn Jairo, and Carlos Theran for their invaluable guidance. Furthermore, thank you to Florida A&M University for graciously funding this scientific excursion.
 
 ## 8. References
 
