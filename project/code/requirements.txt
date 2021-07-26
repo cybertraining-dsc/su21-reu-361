@@ -8,3 +8,5 @@ cloudmesh-common
 cloudmesh-cmd5
 jupyter
 jupyter-lab
+yfinance
+pathlib
