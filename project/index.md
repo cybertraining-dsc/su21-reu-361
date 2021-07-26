@@ -113,11 +113,11 @@ The benchmark is run within yfinance-lstm.ipynb located in project/code. The pro
 | cpu_count        | 12                                                                             |
 | cpu_threads      | 12                                                                             |
 | frequency        | scpufreq(current=3600.0, min=0.0, max=3600.0)                                  |
-| mem.available    | 2.4 GiB                                                                        |
-| mem.free         | 2.4 GiB                                                                        |
-| mem.percent      | 84.7 %                                                                         |
+| mem.available    | 7.1 GiB                                                                        |
+| mem.free         | 7.1 GiB                                                                        |
+| mem.percent      | 55.3 %                                                                         |
 | mem.total        | 16.0 GiB                                                                       |
-| mem.used         | 13.5 GiB                                                                       |
+| mem.used         | 8.8 GiB                                                                        |
 | platform.version | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free')                             |
 | python           | 3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)] |
 | python.pip       | 21.1.3                                                                         |
@@ -133,9 +133,9 @@ The benchmark is run within yfinance-lstm.ipynb located in project/code. The pro
 
 | Name            |   Time   |    Sum   | Start               | OS      | Version                                            |
 |-----------------|----------|----------|---------------------|---------|----------------------------------------------------|
-| Training time   | 15.924 s | 94.377 s | 2021-07-22 18:31:57 | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
-| Overall time    | 17.279 s | 68.414 s | 2021-07-22 18:31:56 | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
-| Prediction time |  0.235 s |  1.412 s | 2021-07-22 18:32:13 | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
+| Overall time    | 16.589 s | 35.273 s | 2021-07-26 18:39:57 | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
+| Training time   | 15.186 s | 30.986 s | 2021-07-26 18:39:58 | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
+| Prediction time |  0.227 s |  0.474 s | 2021-07-26 18:40:13 | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
  
 ## 6. Conclusion
 
