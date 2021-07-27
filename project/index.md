@@ -118,7 +118,6 @@ The benchmark is run within yfinance-lstm.ipynb located in project/code[^13]. Th
 
 | Attribute        | Value                                                                          |
 |------------------|--------------------------------------------------------------------------------|
-| cpu              |                                                                                |
 | cpu_cores        | 6                                                                              |
 | cpu_count        | 12                                                                             |
 | cpu_threads      | 12                                                                             |
