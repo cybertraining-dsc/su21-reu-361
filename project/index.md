@@ -54,7 +54,7 @@ This project utilizes yfinance, a Python module which downloads the historical p
 
 ![Figure 1](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/eos-price.png)
 
-**Figure 1:** Line graph of EOS price from 1 July 2017 to 22 July 2021. Generated using yfinance-lstm.ipynb located in project/code, utilizing price data from Yahoo Finance[^4].
+**Figure 1:** Line graph of EOS price from 1 July 2017 to 22 July 2021. Generated using yfinance-lstm.ipynb[^13] located in project/code, utilizing price data from Yahoo Finance[^4].
 
 ## 3. Architecture
 
@@ -88,7 +88,17 @@ After training through 50 epochs, the program generated Figure 4, a line graph o
 
 **Figure 5:** Zoomed-in graph
 
-During training, the number of epochs can affect the model loss. The epochs can also affect the Mean Squared Error, which details how close the prediction line is to the true Close values in United States Dollars (USD).
+During training, the number of epochs can affect the model loss. According to the following figures 6 and 7, the loss starts to minimize around the 30th epoch of training. The greater the number of epochs, the sharper and more accurate the prediction becomes, but it does not improve after around the 30th epoch.
+
+![Figure 6](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/EOS-USD-training-loss.png)
+
+**Figure 6:** Line graph of model loss over the number of epochs the prediction model completed using EOS-USD data set
+
+![Figure 7](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/adjusting-epochs.png)
+
+**Figure 7:** Effect of EOS prediction model based on number of epochs completed
+
+The epochs can also affect the Mean Squared Error, which details how close the prediction line is to the true Close values in United States Dollars (USD).
 
 **Table 1:**: Number of epochs compared with mean squared error; all tests were run with EOS-USD as input. The Mean Squared Error is rounded to the nearest thousandth.
 
@@ -102,7 +112,7 @@ During training, the number of epochs can affect the model loss. The epochs can 
 
 ## 5. Benchmark
 
-The benchmark is run within yfinance-lstm.ipynb located in project/code. The program ran on a 64-bit Windows 10 Home Edition (21H1) computer with a Ryzen 5 3600 processor (3.6 GHz). It also has dual-channel 16 GB RAM clocked at 3200 MHz and a GTX 1660 Ventus XS OC graphics card. The amount of time it takes to train the 50 epochs for the LSTM is around 16 seconds. A StopWatch module was used from the package cloudmesh-common[^10] to precisely measure the training time.
+The benchmark is run within yfinance-lstm.ipynb located in project/code[^13]. The program ran on a 64-bit Windows 10 Home Edition (21H1) computer with a Ryzen 5 3600 processor (3.6 GHz). It also has dual-channel 16 GB RAM clocked at 3200 MHz and a GTX 1660 Ventus XS OC graphics card. The amount of time it takes to train the 50 epochs for the LSTM is around 16 seconds. A StopWatch module was used from the package cloudmesh-common[^10] to precisely measure the training time.
  
 **Table 2:**: First half of cloudmesh benchmark output, which details the specifications and status of the computer at the time of program execution
 
