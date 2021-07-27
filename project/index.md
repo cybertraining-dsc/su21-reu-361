@@ -104,11 +104,11 @@ The epochs can also affect the Mean Squared Error, which details how close the p
 
 | Epochs |   Mean Squared Error   |
 |--------|------------------------|
-| 100    | 0.490 USD              |
-| 50     | 0.485 USD              |
-| 25     | 0.478 USD              |
-| 15     | 0.558 USD              |
 | 5      | 0.924 USD              |
+| 15     | 0.558 USD              |
+| 25     | 0.478 USD              |
+| 50     | 0.485 USD              |
+| 100    | 0.490 USD              |
 
 ## 5. Benchmark
 
