@@ -88,7 +88,7 @@ After training through 50 epochs, the program generated Figure 4, a line graph o
 
 **Figure 5:** Zoomed-in graph
 
-During training, the number of epochs can affect the model loss. According to the following figures 6 and 7, the loss starts to minimize around the 30th epoch of training. The greater the number of epochs, the sharper and more accurate the prediction becomes, but it does not improve after around the 30th epoch.
+During training, the number of epochs can affect the model loss. According to the following figures 6 and 7, the loss starts to minimize around the 30th epoch of training. The greater the number of epochs, the sharper and more accurate the prediction becomes, but it does not vastly improve after around the 30th epoch.
 
 ![Figure 6](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/EOS-USD-training-loss.png)
 
