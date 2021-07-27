@@ -110,6 +110,14 @@ The epochs can also affect the Mean Squared Error, which details how close the p
 | 50     | 0.485 USD              |
 | 100    | 0.490 USD              |
 
+Lastly, cryptocurrencies other than EOS such as Dogecoin, Ethereum, and Bitcoin can be analyzed as well. Figure 8 demonstrates the prediction models generated for these cryptocurrencies.
+
+![Figure 8](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/other-cryptocurrencies.png)
+
+**Figure 8:** EOS, Dogecoin, Ethereum, and Bitcoin prediction models
+
+Dogecoin presents a model that does not account well for the sharp rises, likely because the training period encompasses a period of relative inactivity (no high changes in price). 
+
 ## 5. Benchmark
 
 The benchmark is run within yfinance-lstm.ipynb located in project/code[^13]. The program ran on a 64-bit Windows 10 Home Edition (21H1) computer with a Ryzen 5 3600 processor (3.6 GHz). It also has dual-channel 16 GB RAM clocked at 3200 MHz and a GTX 1660 Ventus XS OC graphics card. The amount of time it takes to train the 50 epochs for the LSTM is around 16 seconds. A StopWatch module was used from the package cloudmesh-common[^10] to precisely measure the training time.
