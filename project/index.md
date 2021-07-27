@@ -78,15 +78,15 @@ The training model is run through a layer of long short-term memory, as well as 
 
 **Figure 3:** Visual depiction of one layer of long short-term memory[^9]
 
-After training through 50 epochs, the program generated Figure 4, a line graph of the prediction model. Note that only the last 200 days are predicted so that the model can analyze the preexisting data prior to the 200 days for training purposes.
+After training through 50 epochs, the program generated Figure 4, a line graph of the prediction model. Unless otherwise specified, the following figures use the EOS-USD data set from July 1st, 2017 to July 26th, 2021. Note that only the last 200 days are predicted so that the model can analyze the preexisting data prior to the 200 days for training purposes.
 
 ![Figure 4](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/prediction-model.png)
 
-**Figure 4:** EOS price overlayed with the latest 200 days predicted by LSTM
+**Figure 4:** EOS-USD price overlayed with the latest 200 days predicted by LSTM
 
 ![Figure 5](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/prediction-model-zoomed.png)
 
-**Figure 5:** Zoomed-in graph
+**Figure 5:** Zoomed-in graph (same as Figure 4 but scaled x and y-axis for readability)
 
 During training, the number of epochs can affect the model loss. According to the following figures 6 and 7, the loss starts to minimize around the 30th epoch of training. The greater the number of epochs, the sharper and more accurate the prediction becomes, but it does not vastly improve after around the 30th epoch.
 
@@ -96,7 +96,7 @@ During training, the number of epochs can affect the model loss. According to th
 
 ![Figure 7](https://raw.githubusercontent.com/cybertraining-dsc/su21-reu-361/main/project/images/adjusting-epochs.png)
 
-**Figure 7:** Effect of EOS prediction model based on number of epochs completed
+**Figure 7:** Effect of EOS-USD prediction model based on number of epochs completed
 
 The epochs can also affect the Mean Squared Error, which details how close the prediction line is to the true Close values in United States Dollars (USD).
 
