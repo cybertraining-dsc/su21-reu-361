@@ -62,6 +62,8 @@ This project utilizes yfinance, a Python module which downloads the historical p
 
 **Figure 2:** The process of producing LSTM timeseries based on cryptocurrency price.
 
+This program undergoes the four main phases outlined in Figure 2: retrieving data from Yahoo Finance[^4], isolating the Close prices (the price the cryptocurrency has at the end of each day), training the LSTM to predeict Close prices, and plotting the prediction model, respectively.
+
 ## 4. Implementation
 
 Initially, this project was meant to scrape prices using the BeautifulSoup Python module; however, slight changes in a financial page's website caused the code to break. Alternatively, Kaggle offered historical datasets of cryptocurrency, but they were not up to date. Thus, the final method of retrieving data is from Yahoo Finance through the yfinance Python module, which returns the coins' price from the day to its inception to the present day.
@@ -100,7 +102,7 @@ During training, the number of epochs can affect the model loss. According to th
 
 The epochs can also affect the Mean Squared Error, which details how close the prediction line is to the true Close values in United States Dollars (USD).
 
-**Table 1:**: Number of epochs compared with mean squared error; all tests were run with EOS-USD as input. The Mean Squared Error is rounded to the nearest thousandth.
+**Table 1:** Number of epochs compared with mean squared error; all tests were run with EOS-USD as input. The Mean Squared Error is rounded to the nearest thousandth.
 
 | Epochs |   Mean Squared Error   |
 |--------|------------------------|
@@ -120,9 +122,9 @@ Dogecoin presents a model that does not account well for the sharp rises, likely
 
 ## 5. Benchmark
 
-The benchmark is run within yfinance-lstm.ipynb located in project/code[^13]. The program ran on a 64-bit Windows 10 Home Edition (21H1) computer with a Ryzen 5 3600 processor (3.6 GHz). It also has dual-channel 16 GB RAM clocked at 3200 MHz and a GTX 1660 Ventus XS OC graphics card. The amount of time it takes to train the 50 epochs for the LSTM is around 16 seconds. A StopWatch module was used from the package cloudmesh-common[^10] to precisely measure the training time.
+The benchmark is run within yfinance-lstm.ipynb located in project/code[^13]. The program ran on a 64-bit Windows 10 Home Edition (21H1) computer with a Ryzen 5 3600 processor (3.6 GHz). It also has dual-channel 16 GB RAM clocked at 3200 MHz and a GTX 1660 Ventus XS OC graphics card. Table 2 lists these specifications as well as the allocated computer memory during runtime and module versions. Table 3 shows that the amount of time it takes to train the 50 epochs for the LSTM is around 15 seconds, while the entire program execution takes around 16 seconds. A StopWatch module was used from the package cloudmesh-common[^10] to precisely measure the training time.
  
-**Table 2:**: First half of cloudmesh benchmark output, which details the specifications and status of the computer at the time of program execution
+**Table 2:** First half of cloudmesh benchmark output, which details the specifications and status of the computer at the time of program execution
 
 | Attribute        | Value                                                                          |
 |------------------|--------------------------------------------------------------------------------|
@@ -146,7 +148,7 @@ The benchmark is run within yfinance-lstm.ipynb located in project/code[^13]. Th
 | uname.system     | Windows                                                                        |
 | uname.version    | 10.0.19043                                                                     |
 
-**Table 3:**: Second half of cloudmesh benchmark output, which reports the execution time of training, overall program, and prediction
+**Table 3:** Second half of cloudmesh benchmark output, which reports the execution time of training, overall program, and prediction
 
 | Name            |   Time   |    Sum   | Start               | OS      | Version                                            |
 |-----------------|----------|----------|---------------------|---------|----------------------------------------------------|
@@ -162,7 +164,7 @@ For future research, a program can scrape tweets from influencers' Twitter pages
 
 ## 7. Acknowledgments
 
-Thank you to Gregor von Laszewski, Yohn Jairo, and Carlos Theran for their invaluable guidance. Furthermore, thank you to Florida A&M University for graciously funding this scientific excursion and Miami Dade College School of Science for this research opportunity.
+Thank you to Dr. Gregor von Laszewski, Dr. Yohn Jairo Parra Bautista, and Dr. Carlos Theran for their invaluable guidance. Furthermore, thank you to Florida A&M University for graciously funding this scientific excursion and Miami Dade College School of Science for this research opportunity.
 
 ## 8. References
 
