@@ -62,7 +62,7 @@ This project utilizes yfinance, a Python module which downloads the historical p
 
 **Figure 2:** The process of producing LSTM timeseries based on cryptocurrency price.
 
-This program undergoes the four main phases outlined in Figure 2: retrieving data from Yahoo Finance[^4], isolating the Close prices (the price the cryptocurrency has at the end of each day), training the LSTM to predeict Close prices, and plotting the prediction model, respectively.
+This program undergoes the four main phases outlined in Figure 2: retrieving data from Yahoo Finance[^4], isolating the Close prices (the price the cryptocurrency has at the end of each day), training the LSTM to predict Close prices, and plotting the prediction model, respectively.
 
 ## 4. Implementation
 
