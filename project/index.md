@@ -100,7 +100,7 @@ During training, the number of epochs can affect the model loss. According to th
 
 **Figure 7:** Effect of EOS-USD prediction model based on number of epochs completed
 
-The epochs can also affect the Mean Squared Error, which details how close the prediction line is to the true Close values in United States Dollars (USD).
+The epochs can also affect the Mean Squared Error, which details how close the prediction line is to the true Close values in United States Dollars (USD). As demonstrated in Table 1, more epochs lessens the Mean Squared Error (but the change becomes negligible after 25 epochs).
 
 **Table 1:** Number of epochs compared with mean squared error; all tests were run with EOS-USD as input. The Mean Squared Error is rounded to the nearest thousandth.
 
