@@ -15,7 +15,7 @@ resources:
 
 [![Check Report](https://github.com/cybertraining-dsc/su21-reu-361/workflows/Check%20Report/badge.svg)](https://github.com/cybertraining-dsc/su21-reu-361/actions)
 [![Status](https://github.com/cybertraining-dsc/su21-reu-361/workflows/Status/badge.svg)](https://github.com/cybertraining-dsc/su21-reu-361/actions)
-Status: draft, Type: Project
+Status: final, Type: Project
 
 
 Jacques Fleischer, [su21-reu-361](https://github.com/cybertraining-dsc/su21-reu-361), [Edit](https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/index.md)
