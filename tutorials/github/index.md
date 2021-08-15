@@ -4,7 +4,7 @@ title: Tutorial on Getting Raw Images on GitHub
 linkTitle: Raw Images GitHub
 tags: ["project", "reu", "tutorial"]
 description: "We need raw images"
-author: Jacques, Fleischer
+author: Jacques Fleischer
 github_url: https://github.com/cybertraining-dsc/su21-reu-361/edit/main/tutorials/github/index.md
 resources:
 - src: "**.{png,jpg}"
