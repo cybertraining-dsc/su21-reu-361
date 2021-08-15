@@ -16,7 +16,7 @@ resources:
 
 ## Abstract
 
-This tutorial teaches how to install Python on Windows 10.
+This tutorial teaches how to install Python on Windows, Mac, and Linux.
 
 Contents
 
