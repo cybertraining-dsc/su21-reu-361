@@ -52,13 +52,13 @@ Long short-term memory (LSTM) is a neural network (form of AI) which ingests inf
 
 This project utilizes yfinance, a Python module which downloads the historical prices of a cryptocurrency from the first day of its inception to whichever day the program is executed. For example, the Yahoo Finance page for EOS-USD is the source for Figure 1[^4]. Figure 1 shows the historical data on a line graph when the program receives "EOS-USD" as an input.
 
-![Figure 1](https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images//eos-price.png)
+![Figure 1](https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/eos-price.png)
 
 **Figure 1:** Line graph of EOS price from 1 July 2017 to 22 July 2021. Generated using yfinance-lstm.ipynb[^13] located in project/code, utilizing price data from Yahoo Finance[^4].
 
 ## 3. Architecture
 
-![Figure 2](https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images//architecture-process.png)
+![Figure 2](https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/architecture-process.png)
 
 **Figure 2:** The process of producing LSTM timeseries based on cryptocurrency price.
 
@@ -76,27 +76,27 @@ Then, the program downloads the historical data for the corresponding coin throu
 
 The training model is run through a layer of long short-term memory, as well as a dropout layer to prevent overfitting and a dense layer to give the model a memory capacity. Figure 3 showcases the setup of the LSTM layer.
 
-![Figure 3](https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images//lstm.png)
+![Figure 3](https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/lstm.png)
 
 **Figure 3:** Visual depiction of one layer of long short-term memory[^9]
 
 After training through 50 epochs, the program generated Figure 4, a line graph of the prediction model. Unless otherwise specified, the following figures use the EOS-USD data set from July 1st, 2017 to July 26th, 2021. Note that only the last 200 days are predicted so that the model can analyze the preexisting data prior to the 200 days for training purposes.
 
-![Figure 4](https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images//prediction-model.png)
+![Figure 4](https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/prediction-model.png)
 
 **Figure 4:** EOS-USD price overlayed with the latest 200 days predicted by LSTM
 
-![Figure 5](https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images//prediction-model-zoomed.png)
+![Figure 5](https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/prediction-model-zoomed.png)
 
 **Figure 5:** Zoomed-in graph (same as Figure 4 but scaled x and y-axis for readability)
 
 During training, the number of epochs can affect the model loss. According to the following figures 6 and 7, the loss starts to minimize around the 30th epoch of training. The greater the number of epochs, the sharper and more accurate the prediction becomes, but it does not vastly improve after around the 30th epoch.
 
-![Figure 6](https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images//EOS-USD-training-loss.png)
+![Figure 6](https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/EOS-USD-training-loss.png)
 
 **Figure 6:** Line graph of model loss over the number of epochs the prediction model completed using EOS-USD data set
 
-![Figure 7](https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images//adjusting-epochs.png)
+![Figure 7](https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/adjusting-epochs.png)
 
 **Figure 7:** Effect of EOS-USD prediction model based on number of epochs completed
 
@@ -114,7 +114,7 @@ The epochs can also affect the Mean Squared Error, which details how close the p
 
 Lastly, cryptocurrencies other than EOS such as Dogecoin, Ethereum, and Bitcoin can be analyzed as well. Figure 8 demonstrates the prediction models generated for these cryptocurrencies.
 
-![Figure 8](https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images//other-cryptocurrencies.png)
+![Figure 8](https://github.com/cybertraining-dsc/su21-reu-361/raw/main/project/images/other-cryptocurrencies.png)
 
 **Figure 8:** EOS, Dogecoin, Ethereum, and Bitcoin prediction models
 
