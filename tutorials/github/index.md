@@ -29,7 +29,7 @@ Contents
 
 ## Steps
 
-1. Upload your image to GitHub in the images directory
+1. Upload your image to GitHub in the images directory. This folder is inside the project folder in your REU repository. Once there, click `Add file` and click `Upload files`. Proceed by clicking `choose your files` and uploading the correct image.
 
 2. Once you navigate to the images directory by clicking on it in GitHub, click on the name of the image to view it and then right click the Download button
 
