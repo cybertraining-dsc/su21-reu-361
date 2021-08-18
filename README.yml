@@ -4,7 +4,7 @@ owner:
   lastname: "Fleischer"
   hid: "su21-reu-361"
   community: "reu"
-  semester: "sp21"
+  semester: "su21"
 project:
   title: "Time Series Analysis of Blockchain-Based Cryptocurrency Price Changes"
   url: "https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/index.md"
