@@ -1,6 +1,6 @@
 ---
 date: 2021-06-16
-title: "Time Series Analysis of Blockchain-Based Cryptocurrency Price Changes"
+title: "Project: Time Series Analysis of Blockchain-Based Cryptocurrency Price Changes"
 linkTitle: Time Series Cryptocurrency
 tags: ["project", "reu", "blockchain", "finance"]
 description: "This project applies neural networks and Artificial Intelligence (AI) to historical records of high-risk cryptocurrency coins to train a prediction model that guesses their price. The code in this project contains Jupyter notebooks, one of which outputs a timeseries graph of any cryptocurrency price once a csv file of the historical data is inputted into the program. Another Jupyter notebook trains an LSTM, or a long short-term memory model, to predict a cryptocurrency's closing price. The LSTM is fed the close price, which is the price that the currency has at the end of the day, so it can learn from those values. The notebook creates two sets: a training set and a test set to assess the accuracy of the results.
