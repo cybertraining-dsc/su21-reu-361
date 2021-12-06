@@ -27,6 +27,7 @@ Jacques Fleischer, [su21-reu-361](https://github.com/cybertraining-dsc/su21-reu-
 * Presentations:
   * [2021 FAMU-FGLSAMP Data Science and AI Research Experience for Undergraduates Presentation](https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/Slideshow.pptx?raw=true)
   * [Miami Dade College School of Science 10th Annual STEM Research Symposium 2021 Poster](https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/Poster.pptx?raw=true)
+  * Accepted at the 2022 Emerging Researchers National (ERN) Conference in STEM. Washington, D.C., on February 3-5, 2022. Due to Covid the conference may be postponed. 
 
 {{% pageinfo %}}
 
