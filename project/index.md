@@ -24,11 +24,11 @@ Jacques Fleischer, [su21-reu-361](https://github.com/cybertraining-dsc/su21-reu-
   * [Install documentation README.md](https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/code/README.md)[^12]
   * [yfinance-lstm.ipynb](https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/code/yfinance-lstm.ipynb)[^13]
 
-{{% pageinfo %}}
-
 * Presentations:
   * [2021 FAMU-FGLSAMP Data Science and AI Research Experience for Undergraduates Presentation](https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/Slideshow.pptx?raw=true)
   * [Miami Dade College School of Science 10th Annual STEM Research Symposium 2021 Poster](https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/Poster.pptx?raw=true)
+
+{{% pageinfo %}}
 
 ## Abstract
 
