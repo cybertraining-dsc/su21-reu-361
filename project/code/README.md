@@ -8,8 +8,9 @@ or Visual Studio Code.
 
 
 Once downloaded, open the yfinance-lstm.ipynb in an IDE, preferably in a Python
-virtual environment. Tutorials on how to start a virtual environment are in the
-tutorials folder of the repo. Then, ensure all the Python modules that are imported
+virtual environment. Tutorials on how to start a virtual environment are located on
+cybertraining at this link: <https://cybertraining-dsc.github.io/docs/tutorial/>
+Then, ensure all the Python modules that are imported
 within the first cell of yfinance-lstm.ipynb are installed with pip (preferably
 within virtual environment).
 
