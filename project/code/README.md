@@ -1,5 +1,22 @@
 # yfinance-lstm.ipynb Instructions
 
+
+TODO: add requirements.txt, git clone, set up pyenv, make sure the reader knows this
+for ease of replication
+
+TODO: add papermill to requirements and create makefile that runs papermill
+
+cp yfinance-lstm.ipynb yfinance-lstm-`hostname`.ipynb
+papermill yfinance-lstm-`hostname`.ipynb
+
+This will produce the new notebook with all the results included
+An alternative way is to convert the ipynb to python with 
+nbconvert ... some options
+
+You can also run this directly in jupyter-lab
+
+jupyter-lab yfinance-lstm-`hostname`.ipynb
+
 Please ensure you have downloaded the code folder. GitHub and git makes this easy
 through cloning of the repo. Cloning is impossible without first installing Git.
 Alternatively one can download the repository as a ZIP and extract it by clicking
@@ -8,9 +25,8 @@ or Visual Studio Code.
 
 
 Once downloaded, open the yfinance-lstm.ipynb in an IDE, preferably in a Python
-virtual environment. Tutorials on how to start a virtual environment are located on
-cybertraining at this link: <https://cybertraining-dsc.github.io/docs/tutorial/pycharm/>
-Then, ensure all the Python modules that are imported
+virtual environment. Tutorials on how to start a virtual environment are in the
+tutorials folder of the repo. Then, ensure all the Python modules that are imported
 within the first cell of yfinance-lstm.ipynb are installed with pip (preferably
 within virtual environment).
 
