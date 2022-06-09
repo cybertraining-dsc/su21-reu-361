@@ -1,12 +1,11 @@
 keras
 tensorflow
 pandas
-scikit-learn
+sklearn
 numpy
 matplotlib
 cloudmesh-common
 cloudmesh-cmd5
 jupyter
-jupyter-lab
 yfinance
 pathlib
