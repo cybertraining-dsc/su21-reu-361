@@ -10,3 +10,12 @@ project:
   url: "https://github.com/cybertraining-dsc/su21-reu-361/blob/main/project/index.md"
   author:
     - su21-reu-361
+
+Running
+
+```
+git clone https://github.com/cybertraining-dsc/su21-reu-361.git
+cd su21-reu-361/project/code
+pip install -r requirements.txt
+jupyter nbconvert --to notebook --inplace --execute yfinance-lstm.ipynb --ExecutePreprocessor.timeout=600
+```
