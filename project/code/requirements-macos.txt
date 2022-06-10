@@ -1,5 +1,5 @@
 keras
-tensorflow
+tensorflow-macos
 pandas
 sklearn
 numpy
