@@ -6,14 +6,14 @@
 | cpu_count        | 12                                                                               |
 | cpu_threads      | 12                                                                               |
 | frequency        | scpufreq(current=3600.0, min=0.0, max=3600.0)                                    |
-| mem.available    | 5.1 GiB                                                                          |
-| mem.free         | 5.1 GiB                                                                          |
-| mem.percent      | 67.9 %                                                                           |
+| mem.available    | 2.6 GiB                                                                          |
+| mem.free         | 2.6 GiB                                                                          |
+| mem.percent      | 84.0 %                                                                           |
 | mem.total        | 16.0 GiB                                                                         |
-| mem.used         | 10.8 GiB                                                                         |
+| mem.used         | 13.4 GiB                                                                         |
 | platform.version | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free')                               |
 | python           | 3.10.5 (tags/v3.10.5:f377153, Jun  6 2022, 16:14:13) [MSC v.1929 64 bit (AMD64)] |
-| python.pip       | 22.1.1                                                                           |
+| python.pip       | 22.0.4                                                                           |
 | python.version   | 3.10.5                                                                           |
 | sys.platform     | win32                                                                            |
 | uname.machine    | AMD64                                                                            |

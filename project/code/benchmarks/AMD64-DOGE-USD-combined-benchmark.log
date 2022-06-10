@@ -1,0 +1,39 @@
+
++------------------+----------------------------------------------------------------------------------+
+| Attribute        | Value                                                                            |
+|------------------+----------------------------------------------------------------------------------|
+| cpu              |                                                                                  |
+| cpu_cores        | 6                                                                                |
+| cpu_count        | 12                                                                               |
+| cpu_threads      | 12                                                                               |
+| frequency        | scpufreq(current=3600.0, min=0.0, max=3600.0)                                    |
+| mem.available    | 2.9 GiB                                                                          |
+| mem.free         | 2.9 GiB                                                                          |
+| mem.percent      | 81.8 %                                                                           |
+| mem.total        | 16.0 GiB                                                                         |
+| mem.used         | 13.0 GiB                                                                         |
+| platform.version | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free')                               |
+| python           | 3.10.5 (tags/v3.10.5:f377153, Jun  6 2022, 16:14:13) [MSC v.1929 64 bit (AMD64)] |
+| python.pip       | 22.0.4                                                                           |
+| python.version   | 3.10.5                                                                           |
+| sys.platform     | win32                                                                            |
+| uname.machine    | AMD64                                                                            |
+| uname.node       | Sledgehammer                                                                     |
+| uname.processor  | AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD                               |
+| uname.release    | 10                                                                               |
+| uname.system     | Windows                                                                          |
+| uname.version    | 10.0.19043                                                                       |
+| user             | Sledgehammer                                                                     |
++------------------+----------------------------------------------------------------------------------+
+
++-----------------+----------+--------+---------+---------------------+-------+-------+--------------+--------------+---------+----------------------------------------------------+
+| Name            | Status   |   Time |     Sum | Start               | tag   | msg   | Node         | User         | OS      | Version                                            |
+|-----------------+----------+--------+---------+---------------------+-------+-------+--------------+--------------+---------+----------------------------------------------------|
+| Overall time    | ok       | 27.844 | 604.022 | 2022-06-10 14:17:58 |       |       | Sledgehammer | Sledgehammer | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
+| Training time   | ok       | 25.456 | 509.236 | 2022-06-10 14:18:00 |       |       | Sledgehammer | Sledgehammer | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
+| Prediction time | ok       |  0.316 |  13.813 | 2022-06-10 14:18:25 |       |       | Sledgehammer | Sledgehammer | Windows | ('10', '10.0.19043', 'SP0', 'Multiprocessor Free') |
++-----------------+----------+--------+---------+---------------------+-------+-------+--------------+--------------+---------+----------------------------------------------------+
+# csv,timer,status,time,sum,start,tag,msg,uname.node,user,uname.system,platform.version
+# csv,Overall time,ok,27.844,604.022,2022-06-10 14:17:58,,None,Sledgehammer,Sledgehammer,Windows,('10', '10.0.19043', 'SP0', 'Multiprocessor Free')
+# csv,Training time,ok,25.456,509.236,2022-06-10 14:18:00,,None,Sledgehammer,Sledgehammer,Windows,('10', '10.0.19043', 'SP0', 'Multiprocessor Free')
+# csv,Prediction time,ok,0.316,13.813,2022-06-10 14:18:25,,None,Sledgehammer,Sledgehammer,Windows,('10', '10.0.19043', 'SP0', 'Multiprocessor Free')
