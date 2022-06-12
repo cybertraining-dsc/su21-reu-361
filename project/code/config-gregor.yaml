@@ -1,6 +1,6 @@
 debug: True
 user: "gregor"
-host: "5090X-RTX3090"
+node: "5090X-RTX3090"
 experiments:
-    epoch: [1,2,10,20, 30]
+    epoch: [1,2,10,20,30]
     gpu: ["K80","A100","V100","P100"]
