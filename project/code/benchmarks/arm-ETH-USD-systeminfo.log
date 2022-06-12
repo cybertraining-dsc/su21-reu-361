@@ -1,0 +1,30 @@
++------------------+------------------------------------------------------------------------------------------------------+
+| Attribute        | Value                                                                                                |
+|------------------+------------------------------------------------------------------------------------------------------|
+| cpu              | Apple M1 Pro                                                                                         |
+| cpu_cores        | 10                                                                                                   |
+| cpu_count        | 10                                                                                                   |
+| cpu_threads      | 10                                                                                                   |
+| frequency        | None                                                                                                 |
+| mem.active       | 6.2 GiB                                                                                              |
+| mem.available    | 6.3 GiB                                                                                              |
+| mem.free         | 79.4 MiB                                                                                             |
+| mem.inactive     | 6.2 GiB                                                                                              |
+| mem.percent      | 80.3 %                                                                                               |
+| mem.total        | 32.0 GiB                                                                                             |
+| mem.used         | 10.1 GiB                                                                                             |
+| mem.wired        | 3.9 GiB                                                                                              |
+| platform.version | 12.0.1                                                                                               |
+| python           | 3.9.7 | packaged by conda-forge | (default, Sep 29 2021, 19:24:02)                                   |
+|                  | [Clang 11.1.0 ]                                                                                      |
+| python.pip       | 21.3.1                                                                                               |
+| python.version   | 3.9.7                                                                                                |
+| sys.platform     | darwin                                                                                               |
+| uname.machine    | arm64                                                                                                |
+| uname.node       | MacBook-Pro-77.station                                                                               |
+| uname.processor  | arm                                                                                                  |
+| uname.release    | 21.1.0                                                                                               |
+| uname.system     | Darwin                                                                                               |
+| uname.version    | Darwin Kernel Version 21.1.0: Wed Oct 13 17:33:01 PDT 2021; root:xnu-8019.41.5~1/RELEASE_ARM64_T6000 |
+| user             | carlos-theran                                                                                        |
++------------------+------------------------------------------------------------------------------------------------------+
