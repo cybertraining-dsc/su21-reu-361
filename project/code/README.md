@@ -1,4 +1,4 @@
-# yfinance-lstm.ipynb Instructions
+# Notebook Instructions
 
 
 TODO: add requirements.txt, git clone, set up pyenv, make sure the reader knows this
