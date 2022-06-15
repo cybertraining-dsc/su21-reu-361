@@ -1,0 +1,6 @@
+debug: True
+user: "jp"
+node: "3600-GTX1660"
+experiments:
+    epoch: [1,2,10,20,30]
+    gpu: ["K80","A100","V100","P100"]
