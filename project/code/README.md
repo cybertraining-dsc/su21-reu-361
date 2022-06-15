@@ -1,5 +1,36 @@
-# yfinance-lstm.ipynb Instructions
+# Notebook Instructions
 
+To run the prediction program, ensure that you are on a terminal such as Git Bash
+with a virtual Python environment already activated.
+
+Then issue the following commands:
+
+```bash
+git clone https://github.com/cybertraining-dsc/su21-reu-361.git
+cd su21-reu-361/project/code
+pip install -r requirements.txt
+```
+
+You may create a new config file (ending in `.yaml`) and edit the beginning cells in
+`yfinance-lstm-all-figures.ipynb` to use your specific config file. This config file
+produces log files, which are necessary to run the next analysis notebook called
+`yfinance-lstm-analysis-final.ipynb`. If desired, you may also change the list of
+cryptocurrency tickers that are to be predicted.
+
+Issue the following after making your own config file and editing the notebook to
+use your config file:
+
+```bash
+jupyter nbconvert --to notebook --inplace --execute yfinance-lstm-all-figures.ipynb --ExecutePreprocessor.timeout=600
+```
+
+If you would also like to run the analysis script to produce the figures, you must also
+change the `filename` variable in the `yfinance-lstm-analysis-final.ipynb` notebook
+to use your specific log file. Then issue the following:
+
+```bash
+jupyter nbconvert --to notebook --inplace --execute yfinance-lstm-analysis-final.ipynb --ExecutePreprocessor.timeout=600
+```
 
 TODO: add requirements.txt, git clone, set up pyenv, make sure the reader knows this
 for ease of replication
