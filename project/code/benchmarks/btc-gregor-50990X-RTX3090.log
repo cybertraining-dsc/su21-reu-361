@@ -1,0 +1,453 @@
+
++---------------------+------------------------------------------------------------------+
+| Attribute           | Value                                                            |
+|---------------------+------------------------------------------------------------------|
+| BUG_REPORT_URL      | "https://bugs.launchpad.net/ubuntu/"                             |
+| DISTRIB_CODENAME    | focal                                                            |
+| DISTRIB_DESCRIPTION | "Ubuntu 20.04.4 LTS"                                             |
+| DISTRIB_ID          | Ubuntu                                                           |
+| DISTRIB_RELEASE     | 20.04                                                            |
+| HOME_URL            | "https://www.ubuntu.com/"                                        |
+| ID                  | ubuntu                                                           |
+| ID_LIKE             | debian                                                           |
+| NAME                | "Ubuntu"                                                         |
+| PRETTY_NAME         | "Ubuntu 20.04.4 LTS"                                             |
+| PRIVACY_POLICY_URL  | "https://www.ubuntu.com/legal/terms-and-policies/privacy-policy" |
+| SUPPORT_URL         | "https://help.ubuntu.com/"                                       |
+| UBUNTU_CODENAME     | focal                                                            |
+| VERSION             | "20.04.4 LTS (Focal Fossa)"                                      |
+| VERSION_CODENAME    | focal                                                            |
+| VERSION_ID          | "20.04"                                                          |
+| cpu                 | AMD Ryzen 9 5950X 16-Core Processor                              |
+| cpu_cores           | 16                                                               |
+| cpu_count           | 32                                                               |
+| cpu_threads         | 32                                                               |
+| frequency           | scpufreq(current=2414.759125, min=2200.0, max=5083.397999999997) |
+| mem.active          | 10.7 GiB                                                         |
+| mem.available       | 113.0 GiB                                                        |
+| mem.free            | 96.0 GiB                                                         |
+| mem.inactive        | 15.3 GiB                                                         |
+| mem.percent         | 10.1 %                                                           |
+| mem.total           | 125.7 GiB                                                        |
+| mem.used            | 11.4 GiB                                                         |
+| platform.version    | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022               |
+| python              | 3.10.5 (main, Jun  7 2022, 06:30:01) [GCC 9.4.0]                 |
+| python.pip          | 22.1.2                                                           |
+| python.version      | 3.10.5                                                           |
+| sys.platform        | linux                                                            |
+| uname.machine       | x86_64                                                           |
+| uname.node          | 5090X-RTX3090                                                    |
+| uname.processor     | x86_64                                                           |
+| uname.release       | 5.13.0-48-generic                                                |
+| uname.system        | Linux                                                            |
+| uname.version       | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022               |
+| user                | gregor                                                           |
++---------------------+------------------------------------------------------------------+
+
++--------------------------+----------+----------+----------+---------------------+---------+---------+--------------+-------------+-------+----------------------------------------------------+
+| Name                     | Status   |     Time |      Sum | Start               | tag     |     msg | Node         | User        | OS    | Version                                            |
+|--------------------------+----------+----------+----------+---------------------+---------+---------+--------------+-------------+-------+----------------------------------------------------|
+| all                      | ok       | 1258.12  | 2293.54  | 2022-06-15 15:22:07 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-2-0        | ok       |    3.052 |    3.052 | 2022-06-15 15:22:08 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-2-0     | ok       |    2.603 |    2.603 | 2022-06-15 15:22:08 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-2-0   | ok       |    0.209 |    0.209 | 2022-06-15 15:22:11 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-2-0         | ok       |    0     |    0     | 2022-06-15 15:22:11 | BTC-USD | 3950    | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-2-1        | ok       |    1.629 |    1.629 | 2022-06-15 15:22:11 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-2-1     | ok       |    1.14  |    1.14  | 2022-06-15 15:22:11 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-2-1   | ok       |    0.181 |    0.181 | 2022-06-15 15:22:12 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-2-1         | ok       |    0     |    0     | 2022-06-15 15:22:12 | BTC-USD | 3622.61 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-2-2        | ok       |    1.588 |    1.588 | 2022-06-15 15:22:12 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-2-2     | ok       |    1.159 |    1.159 | 2022-06-15 15:22:13 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-2-2   | ok       |    0.19  |    0.19  | 2022-06-15 15:22:14 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-2-2         | ok       |    0     |    0     | 2022-06-15 15:22:14 | BTC-USD | 2548.4  | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-2-3        | ok       |    1.751 |    1.751 | 2022-06-15 15:22:14 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-2-3     | ok       |    1.138 |    1.138 | 2022-06-15 15:22:14 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-2-3   | ok       |    0.38  |    0.38  | 2022-06-15 15:22:15 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-2-3         | ok       |    0     |    0     | 2022-06-15 15:22:16 | BTC-USD | 2670.98 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-2-4        | ok       |    1.761 |    1.761 | 2022-06-15 15:22:16 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-2-4     | ok       |    1.135 |    1.135 | 2022-06-15 15:22:16 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-2-4   | ok       |    0.181 |    0.181 | 2022-06-15 15:22:17 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-2-4         | ok       |    0     |    0     | 2022-06-15 15:22:18 | BTC-USD | 2894.04 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-10-0       | ok       |    2.885 |    2.885 | 2022-06-15 15:22:18 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-10-0    | ok       |    2.485 |    2.485 | 2022-06-15 15:22:18 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-10-0  | ok       |    0.182 |    0.182 | 2022-06-15 15:22:20 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-10-0        | ok       |    0     |    0     | 2022-06-15 15:22:20 | BTC-USD | 4033.92 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-10-1       | ok       |    3.183 |    3.183 | 2022-06-15 15:22:20 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-10-1    | ok       |    2.538 |    2.538 | 2022-06-15 15:22:21 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-10-1  | ok       |    0.184 |    0.184 | 2022-06-15 15:22:23 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-10-1        | ok       |    0     |    0     | 2022-06-15 15:22:24 | BTC-USD | 1907.83 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-10-2       | ok       |    3.374 |    3.374 | 2022-06-15 15:22:24 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-10-2    | ok       |    2.749 |    2.749 | 2022-06-15 15:22:24 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-10-2  | ok       |    0.184 |    0.184 | 2022-06-15 15:22:27 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-10-2        | ok       |    0     |    0     | 2022-06-15 15:22:27 | BTC-USD | 1788.3  | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-10-3       | ok       |    2.94  |    2.94  | 2022-06-15 15:22:27 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-10-3    | ok       |    2.515 |    2.515 | 2022-06-15 15:22:27 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-10-3  | ok       |    0.189 |    0.189 | 2022-06-15 15:22:30 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-10-3        | ok       |    0     |    0     | 2022-06-15 15:22:30 | BTC-USD | 4655.36 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-10-4       | ok       |    2.997 |    2.997 | 2022-06-15 15:22:30 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-10-4    | ok       |    2.463 |    2.463 | 2022-06-15 15:22:30 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-10-4  | ok       |    0.19  |    0.19  | 2022-06-15 15:22:33 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-10-4        | ok       |    0     |    0     | 2022-06-15 15:22:33 | BTC-USD | 4434.45 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-50-0       | ok       |    9.927 |    9.927 | 2022-06-15 15:22:33 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-50-0    | ok       |    9.521 |    9.521 | 2022-06-15 15:22:33 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-50-0  | ok       |    0.185 |    0.185 | 2022-06-15 15:22:43 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-50-0        | ok       |    0     |    0     | 2022-06-15 15:22:43 | BTC-USD | 1590.95 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-50-1       | ok       |    9.809 |    9.809 | 2022-06-15 15:22:43 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-50-1    | ok       |    9.16  |    9.16  | 2022-06-15 15:22:43 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-50-1  | ok       |    0.173 |    0.173 | 2022-06-15 15:22:52 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-50-1        | ok       |    0     |    0     | 2022-06-15 15:22:53 | BTC-USD | 1584.1  | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-50-2       | ok       |    9.606 |    9.606 | 2022-06-15 15:22:53 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-50-2    | ok       |    9.123 |    9.123 | 2022-06-15 15:22:53 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-50-2  | ok       |    0.19  |    0.19  | 2022-06-15 15:23:02 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-50-2        | ok       |    0     |    0     | 2022-06-15 15:23:02 | BTC-USD | 2399.12 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-50-3       | ok       |   11.664 |   11.664 | 2022-06-15 15:23:02 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-50-3    | ok       |   11.267 |   11.267 | 2022-06-15 15:23:02 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-50-3  | ok       |    0.18  |    0.18  | 2022-06-15 15:23:14 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-50-3        | ok       |    0     |    0     | 2022-06-15 15:23:14 | BTC-USD | 1421.57 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-50-4       | ok       |   12.207 |   12.207 | 2022-06-15 15:23:14 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-50-4    | ok       |   11.386 |   11.386 | 2022-06-15 15:23:15 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-50-4  | ok       |    0.193 |    0.193 | 2022-06-15 15:23:26 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-50-4        | ok       |    0     |    0     | 2022-06-15 15:23:26 | BTC-USD | 1451.3  | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-75-0       | ok       |   15.448 |   15.448 | 2022-06-15 15:23:26 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-75-0    | ok       |   15.001 |   15.001 | 2022-06-15 15:23:26 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-75-0  | ok       |    0.181 |    0.181 | 2022-06-15 15:23:41 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-75-0        | ok       |    0     |    0     | 2022-06-15 15:23:42 | BTC-USD | 1483.55 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-75-1       | ok       |   15.178 |   15.178 | 2022-06-15 15:23:42 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-75-1    | ok       |   14.652 |   14.652 | 2022-06-15 15:23:42 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-75-1  | ok       |    0.183 |    0.183 | 2022-06-15 15:23:57 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-75-1        | ok       |    0     |    0     | 2022-06-15 15:23:57 | BTC-USD | 1504.04 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-75-2       | ok       |   14.561 |   14.561 | 2022-06-15 15:23:57 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-75-2    | ok       |   14.161 |   14.161 | 2022-06-15 15:23:57 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-75-2  | ok       |    0.178 |    0.178 | 2022-06-15 15:24:11 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-75-2        | ok       |    0     |    0     | 2022-06-15 15:24:11 | BTC-USD | 1834.69 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-75-3       | ok       |   14.024 |   14.024 | 2022-06-15 15:24:11 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-75-3    | ok       |   13.496 |   13.496 | 2022-06-15 15:24:12 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-75-3  | ok       |    0.189 |    0.189 | 2022-06-15 15:24:25 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-75-3        | ok       |    0     |    0     | 2022-06-15 15:24:25 | BTC-USD | 1412.86 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-75-4       | ok       |   14.45  |   14.45  | 2022-06-15 15:24:25 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-75-4    | ok       |   13.921 |   13.921 | 2022-06-15 15:24:26 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-75-4  | ok       |    0.188 |    0.188 | 2022-06-15 15:24:40 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-75-4        | ok       |    0     |    0     | 2022-06-15 15:24:40 | BTC-USD | 1378.35 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-100-0      | ok       |   18.476 |   18.476 | 2022-06-15 15:24:40 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-100-0   | ok       |   17.727 |   17.727 | 2022-06-15 15:24:40 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-100-0 | ok       |    0.181 |    0.181 | 2022-06-15 15:24:58 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-100-0       | ok       |    0     |    0     | 2022-06-15 15:24:58 | BTC-USD | 1496.93 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-100-1      | ok       |   18.254 |   18.254 | 2022-06-15 15:24:58 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-100-1   | ok       |   17.849 |   17.849 | 2022-06-15 15:24:58 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-100-1 | ok       |    0.189 |    0.189 | 2022-06-15 15:25:16 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-100-1       | ok       |    0     |    0     | 2022-06-15 15:25:17 | BTC-USD | 1654.85 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-100-2      | ok       |   19.445 |   19.445 | 2022-06-15 15:25:17 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-100-2   | ok       |   18.615 |   18.615 | 2022-06-15 15:25:17 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-100-2 | ok       |    0.446 |    0.446 | 2022-06-15 15:25:36 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-100-2       | ok       |    0     |    0     | 2022-06-15 15:25:36 | BTC-USD | 1649.96 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-100-3      | ok       |   18.888 |   18.888 | 2022-06-15 15:25:36 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-100-3   | ok       |   18.42  |   18.42  | 2022-06-15 15:25:36 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-100-3 | ok       |    0.179 |    0.179 | 2022-06-15 15:25:55 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-100-3       | ok       |    0     |    0     | 2022-06-15 15:25:55 | BTC-USD | 1423.1  | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-100-4      | ok       |   18.323 |   18.323 | 2022-06-15 15:25:55 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-100-4   | ok       |   17.747 |   17.747 | 2022-06-15 15:25:55 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-100-4 | ok       |    0.183 |    0.183 | 2022-06-15 15:26:13 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-100-4       | ok       |    0     |    0     | 2022-06-15 15:26:13 | BTC-USD | 2151.08 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-125-0      | ok       |   23.111 |   23.111 | 2022-06-15 15:26:13 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-125-0   | ok       |   22.59  |   22.59  | 2022-06-15 15:26:14 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-125-0 | ok       |    0.184 |    0.184 | 2022-06-15 15:26:36 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-125-0       | ok       |    0     |    0     | 2022-06-15 15:26:36 | BTC-USD | 1809.72 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-125-1      | ok       |   23.227 |   23.227 | 2022-06-15 15:26:36 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-125-1   | ok       |   22.606 |   22.606 | 2022-06-15 15:26:37 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-125-1 | ok       |    0.181 |    0.181 | 2022-06-15 15:26:59 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-125-1       | ok       |    0     |    0     | 2022-06-15 15:27:00 | BTC-USD | 1802.36 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-125-2      | ok       |   22.552 |   22.552 | 2022-06-15 15:27:00 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-125-2   | ok       |   22.043 |   22.043 | 2022-06-15 15:27:00 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-125-2 | ok       |    0.183 |    0.183 | 2022-06-15 15:27:22 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-125-2       | ok       |    0     |    0     | 2022-06-15 15:27:22 | BTC-USD | 2162.01 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-125-3      | ok       |   23.173 |   23.173 | 2022-06-15 15:27:22 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-125-3   | ok       |   22.516 |   22.516 | 2022-06-15 15:27:22 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-125-3 | ok       |    0.431 |    0.431 | 2022-06-15 15:27:45 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-125-3       | ok       |    0     |    0     | 2022-06-15 15:27:45 | BTC-USD | 1885.75 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-125-4      | ok       |   23.287 |   23.287 | 2022-06-15 15:27:45 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-125-4   | ok       |   22.636 |   22.636 | 2022-06-15 15:27:46 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-125-4 | ok       |    0.189 |    0.189 | 2022-06-15 15:28:08 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-125-4       | ok       |    0     |    0     | 2022-06-15 15:28:09 | BTC-USD | 1577.27 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-150-0      | ok       |   27.916 |   27.916 | 2022-06-15 15:28:09 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-150-0   | ok       |   27.478 |   27.478 | 2022-06-15 15:28:09 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-150-0 | ok       |    0.187 |    0.187 | 2022-06-15 15:28:36 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-150-0       | ok       |    0     |    0     | 2022-06-15 15:28:36 | BTC-USD | 1867.05 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-150-1      | ok       |   27.818 |   27.818 | 2022-06-15 15:28:36 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-150-1   | ok       |   27.161 |   27.161 | 2022-06-15 15:28:37 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-150-1 | ok       |    0.193 |    0.193 | 2022-06-15 15:29:04 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-150-1       | ok       |    0     |    0     | 2022-06-15 15:29:04 | BTC-USD | 1617.66 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-150-2      | ok       |   26.478 |   26.478 | 2022-06-15 15:29:04 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-150-2   | ok       |   26.058 |   26.058 | 2022-06-15 15:29:04 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-150-2 | ok       |    0.2   |    0.2   | 2022-06-15 15:29:31 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-150-2       | ok       |    0     |    0     | 2022-06-15 15:29:31 | BTC-USD | 1965.87 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-150-3      | ok       |   26.912 |   26.912 | 2022-06-15 15:29:31 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-150-3   | ok       |   26.398 |   26.398 | 2022-06-15 15:29:31 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-150-3 | ok       |    0.193 |    0.193 | 2022-06-15 15:29:57 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-150-3       | ok       |    0     |    0     | 2022-06-15 15:29:58 | BTC-USD | 1460.58 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-150-4      | ok       |   27.199 |   27.199 | 2022-06-15 15:29:58 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-150-4   | ok       |   26.703 |   26.703 | 2022-06-15 15:29:58 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-150-4 | ok       |    0.185 |    0.185 | 2022-06-15 15:30:25 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-150-4       | ok       |    0     |    0     | 2022-06-15 15:30:25 | BTC-USD | 1552.59 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-175-0      | ok       |   31.949 |   31.949 | 2022-06-15 15:30:25 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-175-0   | ok       |   31.356 |   31.356 | 2022-06-15 15:30:25 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-175-0 | ok       |    0.209 |    0.209 | 2022-06-15 15:30:57 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-175-0       | ok       |    0     |    0     | 2022-06-15 15:30:57 | BTC-USD | 2099.89 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-175-1      | ok       |   31.769 |   31.769 | 2022-06-15 15:30:57 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-175-1   | ok       |   31.115 |   31.115 | 2022-06-15 15:30:57 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-175-1 | ok       |    0.187 |    0.187 | 2022-06-15 15:31:28 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-175-1       | ok       |    0     |    0     | 2022-06-15 15:31:29 | BTC-USD | 2142.27 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-175-2      | ok       |   31.154 |   31.154 | 2022-06-15 15:31:29 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-175-2   | ok       |   30.634 |   30.634 | 2022-06-15 15:31:29 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-175-2 | ok       |    0.19  |    0.19  | 2022-06-15 15:32:00 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-175-2       | ok       |    0     |    0     | 2022-06-15 15:32:00 | BTC-USD | 2112.18 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-175-3      | ok       |   30.925 |   30.925 | 2022-06-15 15:32:00 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-175-3   | ok       |   30.321 |   30.321 | 2022-06-15 15:32:00 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-175-3 | ok       |    0.216 |    0.216 | 2022-06-15 15:32:30 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-175-3       | ok       |    0     |    0     | 2022-06-15 15:32:31 | BTC-USD | 1606.15 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-175-4      | ok       |   31.748 |   31.748 | 2022-06-15 15:32:31 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-175-4   | ok       |   31.217 |   31.217 | 2022-06-15 15:32:31 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-175-4 | ok       |    0.204 |    0.204 | 2022-06-15 15:33:02 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-175-4       | ok       |    0     |    0     | 2022-06-15 15:33:02 | BTC-USD | 1861.42 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-200-0      | ok       |   35.237 |   35.237 | 2022-06-15 15:33:02 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-200-0   | ok       |   34.693 |   34.693 | 2022-06-15 15:33:03 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-200-0 | ok       |    0.194 |    0.194 | 2022-06-15 15:33:37 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-200-0       | ok       |    0     |    0     | 2022-06-15 15:33:38 | BTC-USD | 1379.75 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-200-1      | ok       |   35.613 |   35.613 | 2022-06-15 15:33:38 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-200-1   | ok       |   35.129 |   35.129 | 2022-06-15 15:33:38 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-200-1 | ok       |    0.224 |    0.224 | 2022-06-15 15:34:13 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-200-1       | ok       |    0     |    0     | 2022-06-15 15:34:13 | BTC-USD | 1420.99 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-200-2      | ok       |   36.101 |   36.101 | 2022-06-15 15:34:13 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-200-2   | ok       |   35.295 |   35.295 | 2022-06-15 15:34:14 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-200-2 | ok       |    0.211 |    0.211 | 2022-06-15 15:34:49 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-200-2       | ok       |    0     |    0     | 2022-06-15 15:34:49 | BTC-USD | 1380.28 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-200-3      | ok       |   35.423 |   35.423 | 2022-06-15 15:34:49 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-200-3   | ok       |   34.927 |   34.927 | 2022-06-15 15:34:50 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-200-3 | ok       |    0.192 |    0.192 | 2022-06-15 15:35:25 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-200-3       | ok       |    0     |    0     | 2022-06-15 15:35:25 | BTC-USD | 1371.58 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-200-4      | ok       |   35.788 |   35.788 | 2022-06-15 15:35:25 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-200-4   | ok       |   35.026 |   35.026 | 2022-06-15 15:35:25 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-200-4 | ok       |    0.527 |    0.527 | 2022-06-15 15:36:00 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-200-4       | ok       |    0     |    0     | 2022-06-15 15:36:01 | BTC-USD | 1821.15 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-225-0      | ok       |   40.806 |   40.806 | 2022-06-15 15:36:01 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-225-0   | ok       |   40.099 |   40.099 | 2022-06-15 15:36:01 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-225-0 | ok       |    0.208 |    0.208 | 2022-06-15 15:36:41 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-225-0       | ok       |    0     |    0     | 2022-06-15 15:36:41 | BTC-USD | 1792.38 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-225-1      | ok       |   39.706 |   39.706 | 2022-06-15 15:36:41 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-225-1   | ok       |   39.274 |   39.274 | 2022-06-15 15:36:42 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-225-1 | ok       |    0.199 |    0.199 | 2022-06-15 15:37:21 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-225-1       | ok       |    0     |    0     | 2022-06-15 15:37:21 | BTC-USD | 1694.06 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-225-2      | ok       |   40.338 |   40.338 | 2022-06-15 15:37:21 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-225-2   | ok       |   39.693 |   39.693 | 2022-06-15 15:37:22 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-225-2 | ok       |    0.19  |    0.19  | 2022-06-15 15:38:01 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-225-2       | ok       |    0     |    0     | 2022-06-15 15:38:01 | BTC-USD | 2041.36 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-225-3      | ok       |   41.052 |   41.052 | 2022-06-15 15:38:01 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-225-3   | ok       |   40.433 |   40.433 | 2022-06-15 15:38:02 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-225-3 | ok       |    0.212 |    0.212 | 2022-06-15 15:38:42 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-225-3       | ok       |    0     |    0     | 2022-06-15 15:38:42 | BTC-USD | 1798.88 | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| total-BTC-USD-225-4      | ok       |   40.169 |   40.169 | 2022-06-15 15:38:43 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| training-BTC-USD-225-4   | ok       |   39.747 |   39.747 | 2022-06-15 15:38:43 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| prediction-BTC-USD-225-4 | ok       |    0.199 |    0.199 | 2022-06-15 15:39:22 | BTC-USD |         | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
+| RMSE-BTC-USD-225-4       | ok       |    0     |    0     | 2022-06-15 15:39:23 | BTC-USD | 1493    | 5090X-RTX3090 | gregor     | Linux | #54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022 |
++--------------------------+----------+----------+----------+---------------------+---------+---------+--------------+--------+-------+----------------------------------------------------+
+# csv,timer,status,time,sum,start,tag,msg,uname.node,user,uname.system,platform.version
+# csv,all,ok,1258.12,2293.544,2022-06-15 15:22:07,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-2-0,ok,3.052,3.052,2022-06-15 15:22:08,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-2-0,ok,2.603,2.603,2022-06-15 15:22:08,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-2-0,ok,0.209,0.209,2022-06-15 15:22:11,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-2-0,ok,0.0,0.0,2022-06-15 15:22:11,BTC-USD,3949.998014062892,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-2-1,ok,1.629,1.629,2022-06-15 15:22:11,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-2-1,ok,1.14,1.14,2022-06-15 15:22:11,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-2-1,ok,0.181,0.181,2022-06-15 15:22:12,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-2-1,ok,0.0,0.0,2022-06-15 15:22:12,BTC-USD,3622.614535141449,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-2-2,ok,1.588,1.588,2022-06-15 15:22:12,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-2-2,ok,1.159,1.159,2022-06-15 15:22:13,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-2-2,ok,0.19,0.19,2022-06-15 15:22:14,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-2-2,ok,0.0,0.0,2022-06-15 15:22:14,BTC-USD,2548.3966753058394,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-2-3,ok,1.751,1.751,2022-06-15 15:22:14,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-2-3,ok,1.138,1.138,2022-06-15 15:22:14,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-2-3,ok,0.38,0.38,2022-06-15 15:22:15,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-2-3,ok,0.0,0.0,2022-06-15 15:22:16,BTC-USD,2670.9825973646225,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-2-4,ok,1.761,1.761,2022-06-15 15:22:16,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-2-4,ok,1.135,1.135,2022-06-15 15:22:16,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-2-4,ok,0.181,0.181,2022-06-15 15:22:17,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-2-4,ok,0.0,0.0,2022-06-15 15:22:18,BTC-USD,2894.0372873348406,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-10-0,ok,2.885,2.885,2022-06-15 15:22:18,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-10-0,ok,2.485,2.485,2022-06-15 15:22:18,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-10-0,ok,0.182,0.182,2022-06-15 15:22:20,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-10-0,ok,0.0,0.0,2022-06-15 15:22:20,BTC-USD,4033.921278912978,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-10-1,ok,3.183,3.183,2022-06-15 15:22:20,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-10-1,ok,2.538,2.538,2022-06-15 15:22:21,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-10-1,ok,0.184,0.184,2022-06-15 15:22:23,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-10-1,ok,0.0,0.0,2022-06-15 15:22:24,BTC-USD,1907.8294157933208,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-10-2,ok,3.374,3.374,2022-06-15 15:22:24,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-10-2,ok,2.749,2.749,2022-06-15 15:22:24,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-10-2,ok,0.184,0.184,2022-06-15 15:22:27,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-10-2,ok,0.0,0.0,2022-06-15 15:22:27,BTC-USD,1788.2986910597965,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-10-3,ok,2.94,2.94,2022-06-15 15:22:27,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-10-3,ok,2.515,2.515,2022-06-15 15:22:27,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-10-3,ok,0.189,0.189,2022-06-15 15:22:30,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-10-3,ok,0.0,0.0,2022-06-15 15:22:30,BTC-USD,4655.356240200589,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-10-4,ok,2.997,2.997,2022-06-15 15:22:30,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-10-4,ok,2.463,2.463,2022-06-15 15:22:30,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-10-4,ok,0.19,0.19,2022-06-15 15:22:33,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-10-4,ok,0.0,0.0,2022-06-15 15:22:33,BTC-USD,4434.452233423106,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-50-0,ok,9.927,9.927,2022-06-15 15:22:33,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-50-0,ok,9.521,9.521,2022-06-15 15:22:33,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-50-0,ok,0.185,0.185,2022-06-15 15:22:43,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-50-0,ok,0.0,0.0,2022-06-15 15:22:43,BTC-USD,1590.9491010503855,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-50-1,ok,9.809,9.809,2022-06-15 15:22:43,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-50-1,ok,9.16,9.16,2022-06-15 15:22:43,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-50-1,ok,0.173,0.173,2022-06-15 15:22:52,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-50-1,ok,0.0,0.0,2022-06-15 15:22:53,BTC-USD,1584.0978853906252,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-50-2,ok,9.606,9.606,2022-06-15 15:22:53,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-50-2,ok,9.123,9.123,2022-06-15 15:22:53,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-50-2,ok,0.19,0.19,2022-06-15 15:23:02,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-50-2,ok,0.0,0.0,2022-06-15 15:23:02,BTC-USD,2399.1179444853697,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-50-3,ok,11.664,11.664,2022-06-15 15:23:02,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-50-3,ok,11.267,11.267,2022-06-15 15:23:02,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-50-3,ok,0.18,0.18,2022-06-15 15:23:14,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-50-3,ok,0.0,0.0,2022-06-15 15:23:14,BTC-USD,1421.5694897695214,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-50-4,ok,12.207,12.207,2022-06-15 15:23:14,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-50-4,ok,11.386,11.386,2022-06-15 15:23:15,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-50-4,ok,0.193,0.193,2022-06-15 15:23:26,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-50-4,ok,0.0,0.0,2022-06-15 15:23:26,BTC-USD,1451.2993063606034,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-75-0,ok,15.448,15.448,2022-06-15 15:23:26,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-75-0,ok,15.001,15.001,2022-06-15 15:23:26,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-75-0,ok,0.181,0.181,2022-06-15 15:23:41,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-75-0,ok,0.0,0.0,2022-06-15 15:23:42,BTC-USD,1483.5476752415152,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-75-1,ok,15.178,15.178,2022-06-15 15:23:42,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-75-1,ok,14.652,14.652,2022-06-15 15:23:42,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-75-1,ok,0.183,0.183,2022-06-15 15:23:57,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-75-1,ok,0.0,0.0,2022-06-15 15:23:57,BTC-USD,1504.038188593702,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-75-2,ok,14.561,14.561,2022-06-15 15:23:57,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-75-2,ok,14.161,14.161,2022-06-15 15:23:57,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-75-2,ok,0.178,0.178,2022-06-15 15:24:11,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-75-2,ok,0.0,0.0,2022-06-15 15:24:11,BTC-USD,1834.6883334540828,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-75-3,ok,14.024,14.024,2022-06-15 15:24:11,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-75-3,ok,13.496,13.496,2022-06-15 15:24:12,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-75-3,ok,0.189,0.189,2022-06-15 15:24:25,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-75-3,ok,0.0,0.0,2022-06-15 15:24:25,BTC-USD,1412.8570727410615,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-75-4,ok,14.45,14.45,2022-06-15 15:24:25,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-75-4,ok,13.921,13.921,2022-06-15 15:24:26,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-75-4,ok,0.188,0.188,2022-06-15 15:24:40,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-75-4,ok,0.0,0.0,2022-06-15 15:24:40,BTC-USD,1378.3502129788346,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-100-0,ok,18.476,18.476,2022-06-15 15:24:40,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-100-0,ok,17.727,17.727,2022-06-15 15:24:40,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-100-0,ok,0.181,0.181,2022-06-15 15:24:58,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-100-0,ok,0.0,0.0,2022-06-15 15:24:58,BTC-USD,1496.9335901705263,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-100-1,ok,18.254,18.254,2022-06-15 15:24:58,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-100-1,ok,17.849,17.849,2022-06-15 15:24:58,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-100-1,ok,0.189,0.189,2022-06-15 15:25:16,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-100-1,ok,0.0,0.0,2022-06-15 15:25:17,BTC-USD,1654.8464358132294,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-100-2,ok,19.445,19.445,2022-06-15 15:25:17,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-100-2,ok,18.615,18.615,2022-06-15 15:25:17,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-100-2,ok,0.446,0.446,2022-06-15 15:25:36,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-100-2,ok,0.0,0.0,2022-06-15 15:25:36,BTC-USD,1649.9630104081066,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-100-3,ok,18.888,18.888,2022-06-15 15:25:36,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-100-3,ok,18.42,18.42,2022-06-15 15:25:36,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-100-3,ok,0.179,0.179,2022-06-15 15:25:55,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-100-3,ok,0.0,0.0,2022-06-15 15:25:55,BTC-USD,1423.1021494642628,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-100-4,ok,18.323,18.323,2022-06-15 15:25:55,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-100-4,ok,17.747,17.747,2022-06-15 15:25:55,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-100-4,ok,0.183,0.183,2022-06-15 15:26:13,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-100-4,ok,0.0,0.0,2022-06-15 15:26:13,BTC-USD,2151.0770764571353,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-125-0,ok,23.111,23.111,2022-06-15 15:26:13,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-125-0,ok,22.59,22.59,2022-06-15 15:26:14,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-125-0,ok,0.184,0.184,2022-06-15 15:26:36,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-125-0,ok,0.0,0.0,2022-06-15 15:26:36,BTC-USD,1809.7245833147774,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-125-1,ok,23.227,23.227,2022-06-15 15:26:36,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-125-1,ok,22.606,22.606,2022-06-15 15:26:37,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-125-1,ok,0.181,0.181,2022-06-15 15:26:59,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-125-1,ok,0.0,0.0,2022-06-15 15:27:00,BTC-USD,1802.3623905144198,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-125-2,ok,22.552,22.552,2022-06-15 15:27:00,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-125-2,ok,22.043,22.043,2022-06-15 15:27:00,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-125-2,ok,0.183,0.183,2022-06-15 15:27:22,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-125-2,ok,0.0,0.0,2022-06-15 15:27:22,BTC-USD,2162.0111083399047,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-125-3,ok,23.173,23.173,2022-06-15 15:27:22,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-125-3,ok,22.516,22.516,2022-06-15 15:27:22,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-125-3,ok,0.431,0.431,2022-06-15 15:27:45,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-125-3,ok,0.0,0.0,2022-06-15 15:27:45,BTC-USD,1885.7510013822298,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-125-4,ok,23.287,23.287,2022-06-15 15:27:45,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-125-4,ok,22.636,22.636,2022-06-15 15:27:46,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-125-4,ok,0.189,0.189,2022-06-15 15:28:08,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-125-4,ok,0.0,0.0,2022-06-15 15:28:09,BTC-USD,1577.2671026946455,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-150-0,ok,27.916,27.916,2022-06-15 15:28:09,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-150-0,ok,27.478,27.478,2022-06-15 15:28:09,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-150-0,ok,0.187,0.187,2022-06-15 15:28:36,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-150-0,ok,0.0,0.0,2022-06-15 15:28:36,BTC-USD,1867.0520845024876,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-150-1,ok,27.818,27.818,2022-06-15 15:28:36,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-150-1,ok,27.161,27.161,2022-06-15 15:28:37,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-150-1,ok,0.193,0.193,2022-06-15 15:29:04,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-150-1,ok,0.0,0.0,2022-06-15 15:29:04,BTC-USD,1617.6641490838688,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-150-2,ok,26.478,26.478,2022-06-15 15:29:04,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-150-2,ok,26.058,26.058,2022-06-15 15:29:04,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-150-2,ok,0.2,0.2,2022-06-15 15:29:31,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-150-2,ok,0.0,0.0,2022-06-15 15:29:31,BTC-USD,1965.8656522860817,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-150-3,ok,26.912,26.912,2022-06-15 15:29:31,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-150-3,ok,26.398,26.398,2022-06-15 15:29:31,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-150-3,ok,0.193,0.193,2022-06-15 15:29:57,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-150-3,ok,0.0,0.0,2022-06-15 15:29:58,BTC-USD,1460.578014007377,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-150-4,ok,27.199,27.199,2022-06-15 15:29:58,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-150-4,ok,26.703,26.703,2022-06-15 15:29:58,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-150-4,ok,0.185,0.185,2022-06-15 15:30:25,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-150-4,ok,0.0,0.0,2022-06-15 15:30:25,BTC-USD,1552.5881847766477,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-175-0,ok,31.949,31.949,2022-06-15 15:30:25,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-175-0,ok,31.356,31.356,2022-06-15 15:30:25,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-175-0,ok,0.209,0.209,2022-06-15 15:30:57,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-175-0,ok,0.0,0.0,2022-06-15 15:30:57,BTC-USD,2099.89221926719,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-175-1,ok,31.769,31.769,2022-06-15 15:30:57,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-175-1,ok,31.115,31.115,2022-06-15 15:30:57,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-175-1,ok,0.187,0.187,2022-06-15 15:31:28,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-175-1,ok,0.0,0.0,2022-06-15 15:31:29,BTC-USD,2142.270930527541,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-175-2,ok,31.154,31.154,2022-06-15 15:31:29,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-175-2,ok,30.634,30.634,2022-06-15 15:31:29,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-175-2,ok,0.19,0.19,2022-06-15 15:32:00,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-175-2,ok,0.0,0.0,2022-06-15 15:32:00,BTC-USD,2112.177575206741,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-175-3,ok,30.925,30.925,2022-06-15 15:32:00,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-175-3,ok,30.321,30.321,2022-06-15 15:32:00,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-175-3,ok,0.216,0.216,2022-06-15 15:32:30,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-175-3,ok,0.0,0.0,2022-06-15 15:32:31,BTC-USD,1606.1542645912969,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-175-4,ok,31.748,31.748,2022-06-15 15:32:31,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-175-4,ok,31.217,31.217,2022-06-15 15:32:31,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-175-4,ok,0.204,0.204,2022-06-15 15:33:02,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-175-4,ok,0.0,0.0,2022-06-15 15:33:02,BTC-USD,1861.419997503588,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-200-0,ok,35.237,35.237,2022-06-15 15:33:02,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-200-0,ok,34.693,34.693,2022-06-15 15:33:03,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-200-0,ok,0.194,0.194,2022-06-15 15:33:37,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-200-0,ok,0.0,0.0,2022-06-15 15:33:38,BTC-USD,1379.7520087443202,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-200-1,ok,35.613,35.613,2022-06-15 15:33:38,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-200-1,ok,35.129,35.129,2022-06-15 15:33:38,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-200-1,ok,0.224,0.224,2022-06-15 15:34:13,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-200-1,ok,0.0,0.0,2022-06-15 15:34:13,BTC-USD,1420.9891607752793,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-200-2,ok,36.101,36.101,2022-06-15 15:34:13,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-200-2,ok,35.295,35.295,2022-06-15 15:34:14,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-200-2,ok,0.211,0.211,2022-06-15 15:34:49,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-200-2,ok,0.0,0.0,2022-06-15 15:34:49,BTC-USD,1380.276325915019,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-200-3,ok,35.423,35.423,2022-06-15 15:34:49,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-200-3,ok,34.927,34.927,2022-06-15 15:34:50,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-200-3,ok,0.192,0.192,2022-06-15 15:35:25,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-200-3,ok,0.0,0.0,2022-06-15 15:35:25,BTC-USD,1371.5818155758502,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-200-4,ok,35.788,35.788,2022-06-15 15:35:25,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-200-4,ok,35.026,35.026,2022-06-15 15:35:25,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-200-4,ok,0.527,0.527,2022-06-15 15:36:00,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-200-4,ok,0.0,0.0,2022-06-15 15:36:01,BTC-USD,1821.1482343247415,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-225-0,ok,40.806,40.806,2022-06-15 15:36:01,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-225-0,ok,40.099,40.099,2022-06-15 15:36:01,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-225-0,ok,0.208,0.208,2022-06-15 15:36:41,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-225-0,ok,0.0,0.0,2022-06-15 15:36:41,BTC-USD,1792.3803551956923,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-225-1,ok,39.706,39.706,2022-06-15 15:36:41,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-225-1,ok,39.274,39.274,2022-06-15 15:36:42,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-225-1,ok,0.199,0.199,2022-06-15 15:37:21,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-225-1,ok,0.0,0.0,2022-06-15 15:37:21,BTC-USD,1694.0638611617644,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-225-2,ok,40.338,40.338,2022-06-15 15:37:21,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-225-2,ok,39.693,39.693,2022-06-15 15:37:22,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-225-2,ok,0.19,0.19,2022-06-15 15:38:01,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-225-2,ok,0.0,0.0,2022-06-15 15:38:01,BTC-USD,2041.3628272724109,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-225-3,ok,41.052,41.052,2022-06-15 15:38:01,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-225-3,ok,40.433,40.433,2022-06-15 15:38:02,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-225-3,ok,0.212,0.212,2022-06-15 15:38:42,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-225-3,ok,0.0,0.0,2022-06-15 15:38:42,BTC-USD,1798.8752202487412,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,total-BTC-USD-225-4,ok,40.169,40.169,2022-06-15 15:38:43,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,training-BTC-USD-225-4,ok,39.747,39.747,2022-06-15 15:38:43,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,prediction-BTC-USD-225-4,ok,0.199,0.199,2022-06-15 15:39:22,BTC-USD,None,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
+# csv,RMSE-BTC-USD-225-4,ok,0.0,0.0,2022-06-15 15:39:23,BTC-USD,1493.0005547326298,5090X-RTX3090,gregor,Linux,#54~20.04.1-Ubuntu SMP Thu Jun 2 23:37:17 UTC 2022
