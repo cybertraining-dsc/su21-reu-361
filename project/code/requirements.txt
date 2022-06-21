@@ -10,3 +10,5 @@ jupyter
 jupyter_contrib_nbextensions
 yfinance
 pathlib
+pydot
+graphviz

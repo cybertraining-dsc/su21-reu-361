@@ -68,3 +68,7 @@ However, near the end of the program, there is a line that zooms into the axes o
 the graph. The parameters should be manually changed so that it zooms into a point
 of interest. Because cryptocurrencies have wildly varying prices, this must be
 changed on a case-by-case basis.
+
+NOTE: In order to generate the sequential model diagram on Windows, graphviz must
+be installed. We recommend that you install graphviz via chocolatey. First install
+chocolatey and then run `choco install graphviz`.
