@@ -170,6 +170,9 @@ For future research, a program can scrape tweets from influencers' Twitter pages
 ## 7. Acknowledgments
 
 Thank you to Dr. Gregor von Laszewski, Dr. Yohn Jairo Parra Bautista, and Dr. Carlos Theran for their invaluable guidance. Furthermore, thank you to Florida A&M University for graciously funding this scientific excursion and Miami Dade College School of Science for this research opportunity.
+This work was also in part funded by the NSF grant
+CyberTraining: CIC: CyberTraining for Students and Technologies
+from Generation Z with the awadrd numbers 1829704 and 2200409.
 
 ## 8. References
 
